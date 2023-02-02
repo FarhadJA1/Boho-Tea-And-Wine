@@ -1,0 +1,126 @@
+@media screen and (min-width: 992px) {
+    .about-page {
+        .about-header {
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+            font-family: 'Amatic SC', cursive;
+            letter-spacing: 4px;
+
+            .about-decorator {
+                width: 70px;
+                height: 10px;
+                margin: 20px;
+            }
+        }
+
+        .about-content-texts {
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            color: grey;
+            font-family: 'Kanit', sans-serif;
+            margin-top: 50px;
+            text-align: left;
+        }
+
+        .about-page-image {
+            width: 500px;
+            margin-left: 150px;
+
+        }
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 576px) {
+    .about-page{    
+        .about-header{
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+            font-family: 'Amatic SC', cursive;
+            letter-spacing: 4px;
+            .about-decorator{
+                width: 70px;
+                height: 10px;
+                margin: 20px;
+            }
+        }
+        .about-content-texts{
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            color: grey;
+            font-family: 'Kanit', sans-serif;
+            margin-top: 50px;
+            text-align:left;
+        }
+        .about-page-image{
+            width: 500px;
+            margin-left: 150px;
+            
+        }   
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 576px) {
+    .about-page{    
+        .about-header{
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+            font-family: 'Amatic SC', cursive;
+            letter-spacing: 4px;
+            .about-decorator{
+                width: 70px;
+                height: 10px;
+                margin: 20px;
+            }
+        }
+        .about-content-texts{
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            color: grey;
+            font-family: 'Kanit', sans-serif;
+            margin-top: 50px;
+            text-align:center;
+        }
+        .about-page-image{
+            width: 400px;
+            margin-left: 150px;
+            
+        }   
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .about-page{    
+        .about-header{
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            font-family: 'Amatic SC', cursive;
+            letter-spacing: 4px;
+            .about-decorator{
+                width: 70px;
+                height: 10px;
+                margin: 20px;
+            }
+        }
+        .about-content-texts{
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+            color: grey;
+            font-family: 'Kanit', sans-serif;
+            margin-top: 50px;
+            text-align:center;
+        }
+        .about-page-image{
+            width: 300px;
+            margin-left: 38px;
+            
+        }   
+    }
+}

@@ -1,6 +1,5 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { useRef, useState } from "react";
 import SwiperCore,{ Pagination,Autoplay } from "swiper";
 import TestimonialPhoto from '../../assets/images/Home/testimonial_img_1.png'
 import 'swiper/css';
