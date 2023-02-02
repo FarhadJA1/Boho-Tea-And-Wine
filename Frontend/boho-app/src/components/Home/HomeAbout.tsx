@@ -6,10 +6,10 @@ function HomeAbout() {
         <section id='home-about'>
             <div className='container'>
                 <div className="row mt-5">
-                    <div className="col-6">
+                    <div className="col-xl-6 col-lg-6 col-md-12">
                         <img className='home-about-image' src={Img} alt="" />
                     </div>
-                    <div className="col-6 home-about-texts">
+                    <div className="col-xl-6 col-lg-6 col-md-12 home-about-texts">
                         <div className="home-about-content">
                             <h1 className='home-about-title'>BOHO TEA & WINE ROOM</h1>
                             <h1 className='home-about-title'>EXCLUSIVE FOOD FOR YOU</h1>

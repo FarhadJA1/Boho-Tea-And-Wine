@@ -24,7 +24,7 @@
         justify-content: space-around;
   }
   .nav-menu ul li a {
-    --fill-color: #ec876e;
+    --fill-color: #E66445;
     position: relative;
     display: block;
     text-decoration: none;

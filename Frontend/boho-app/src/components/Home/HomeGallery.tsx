@@ -7,22 +7,22 @@ function HomeGallery() {
         <section id='home-gallery'>
             <div className='container-fluid'>
                 <div className="row justify-content-center">
-                    <div className="col-3 home-gallery-header-area">
+                    <div className="home-gallery-header-area">
                         <h1 className='home-gallery-header'>AWESOME GALLERY OF OUR RESTAURANT</h1>
                         <p className='home-gallery-label'>Gallery</p>
                     </div>
 
                 </div>
                 <div className="row home-gallery-images">
-                    <div className="col-4 home-gallery-image-area">
+                    <div className="col-xl-4 col-lg-4 col-md-11 home-gallery-image-area">
                         <img className='home-gallery-image' src={Img1} alt="" />
                         <p className='home-gallery-text-first'>Awesome fresh dishes</p>
                     </div>
-                    <div className="col-4 home-gallery-image-area">
+                    <div className="col-xl-4 col-lg-4 col-md-11 home-gallery-image-area">
                         <img className='home-gallery-image' src={Img2} alt="" />
                         <p className='home-gallery-text-second'>Sweet fruits</p>
                     </div>
-                    <div className="col-4 home-gallery-image-area">
+                    <div className="col-xl-4 col-lg-4 col-md-11 home-gallery-image-area">
                         <img className='home-gallery-image' src={Img3} alt="" />
                         <p className='home-gallery-text-third'>Tasty dinner</p>
                     </div>

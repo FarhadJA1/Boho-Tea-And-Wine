@@ -1,0 +1,309 @@
+@media screen and (min-width: 1536px){
+    .footer{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #a5a5a5;
+        margin-bottom: 50px;
+        .logo{
+            width: 100%;
+            margin-left: 4px;
+        }
+        .socials{        
+            .social-logo{
+                font-size: 25px;
+                color: black;
+                margin-left: 35px;
+                &:hover{
+                    color: #ec876e;
+                    transition: 0.3s;
+                }
+            }
+        }
+        .footer-up{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .footer-label{
+                color: #a5a5a5;
+            }
+        }
+        .footer-down{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        
+    }
+    .end{
+        margin-bottom: 50px;
+        .end-menu{
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            .end-menu-link{
+                text-decoration: none;
+                color: black;
+                font-size: 17px;
+                position: relative;
+                &:hover{
+                    color: #ec876e;
+                }
+                &:after {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    transform: scaleX(0);
+                    height: 2px;
+                    bottom: -7%;
+                    left: 0;
+                    background-color: #ec876e;
+                    transform-origin: bottom right;
+                    transition: transform 0.4s ease-out;
+                }           
+    
+                &:hover:after {
+                    transform: scaleX(1);
+                    transform-origin: bottom left;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 992px) and (max-width:1536px){
+    .footer{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #a5a5a5;
+        margin-bottom: 50px;
+        .logo{
+            width: 100%;
+            margin-left: 4px;
+        }
+        .socials{        
+            .social-logo{
+                font-size: 25px;
+                color: black;
+                &:hover{
+                    color: #ec876e;
+                    transition: 0.3s;
+                }
+            }
+        }
+        .footer-up{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .footer-label{
+                color: #a5a5a5;
+            }
+        }
+        .footer-down{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        
+    }
+    .end{
+        margin-bottom: 50px;
+        .end-menu{
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            .end-menu-link{
+                text-decoration: none;
+                color: black;
+                font-size: 17px;
+                position: relative;
+                &:hover{
+                    color: #ec876e;
+                }
+                &:after {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    transform: scaleX(0);
+                    height: 2px;
+                    bottom: -7%;
+                    left: 0;
+                    background-color: #ec876e;
+                    transform-origin: bottom right;
+                    transition: transform 0.4s ease-out;
+                }           
+    
+                &:hover:after {
+                    transform: scaleX(1);
+                    transform-origin: bottom left;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 992px) and (min-width: 576px){
+    .footer{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #a5a5a5;
+        margin-bottom: 50px;
+        .logo{
+            width: 100%;
+            margin-left: 4px;
+        }
+        .socials{        
+            .social-logo{
+                font-size: 16px;
+                color: black;
+                margin-left: 25px;
+                &:hover{
+                    color: #ec876e;
+                    transition: 0.3s;
+                }
+            }
+        }
+        .card-logos{
+            width: 70px;
+        }
+        .footer-up{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .footer-label{
+                color: #a5a5a5;
+                font-size: 11px;
+            }
+        }
+        .footer-down{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 13px;
+            .footer-hour-details{
+                text-align: center;
+            }
+        }
+        
+        
+    }
+    .end{
+        margin-bottom: 50px;
+        .end-menu{
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            .end-menu-link{
+                text-decoration: none;
+                color: black;
+                font-size: 17px;
+                position: relative;
+                &:hover{
+                    color: #ec876e;
+                }
+                &:after {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    transform: scaleX(0);
+                    height: 2px;
+                    bottom: -7%;
+                    left: 0;
+                    background-color: #ec876e;
+                    transform-origin: bottom right;
+                    transition: transform 0.4s ease-out;
+                }           
+    
+                &:hover:after {
+                    transform: scaleX(1);
+                    transform-origin: bottom left;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 576px){
+    .footer{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #a5a5a5;
+        margin-bottom: 50px;
+        .logo{
+            width: 100%;
+            margin-left: 4px;
+        }
+        .socials{        
+            .social-logo{
+                font-size: 16px;
+                color: black;
+                margin-left: 25px;
+                &:hover{
+                    color: #ec876e;
+                    transition: 0.3s;
+                }
+            }
+        }
+        .card-logos{
+            width: 70px;
+        }
+        .footer-up{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .footer-label{
+                color: #a5a5a5;
+                font-size: 11px;
+            }
+        }
+        .footer-down{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 13px;
+            .footer-hour-details{
+                text-align: center;
+            }
+        }
+        
+        
+    }
+    .end{
+        margin-bottom: 50px;
+        .end-menu{
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            .end-menu-link{
+                text-decoration: none;
+                color: black;
+                font-size: 17px;
+                position: relative;
+                &:hover{
+                    color: #ec876e;
+                }
+                &:after {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    transform: scaleX(0);
+                    height: 2px;
+                    bottom: -7%;
+                    left: 0;
+                    background-color: #ec876e;
+                    transform-origin: bottom right;
+                    transition: transform 0.4s ease-out;
+                }           
+    
+                &:hover:after {
+                    transform: scaleX(1);
+                    transform-origin: bottom left;
+                }
+            }
+        }
+    }
+}
+
+
