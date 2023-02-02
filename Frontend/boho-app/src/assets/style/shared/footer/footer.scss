@@ -15,7 +15,7 @@
                 color: black;
                 margin-left: 35px;
                 &:hover{
-                    color: #ec876e;
+                    color: #E66445;
                     transition: 0.3s;
                 }
             }
@@ -48,7 +48,7 @@
                 font-size: 17px;
                 position: relative;
                 &:hover{
-                    color: #ec876e;
+                    color: #E66445;
                 }
                 &:after {
                     content: '';
@@ -58,7 +58,7 @@
                     height: 2px;
                     bottom: -7%;
                     left: 0;
-                    background-color: #ec876e;
+                    background-color: #E66445;
                     transform-origin: bottom right;
                     transition: transform 0.4s ease-out;
                 }           
@@ -87,7 +87,7 @@
                 font-size: 25px;
                 color: black;
                 &:hover{
-                    color: #ec876e;
+                    color: #E66445;
                     transition: 0.3s;
                 }
             }
@@ -120,7 +120,7 @@
                 font-size: 17px;
                 position: relative;
                 &:hover{
-                    color: #ec876e;
+                    color: #E66445;
                 }
                 &:after {
                     content: '';
@@ -130,7 +130,7 @@
                     height: 2px;
                     bottom: -7%;
                     left: 0;
-                    background-color: #ec876e;
+                    background-color: #E66445;
                     transform-origin: bottom right;
                     transition: transform 0.4s ease-out;
                 }           
@@ -160,7 +160,7 @@
                 color: black;
                 margin-left: 25px;
                 &:hover{
-                    color: #ec876e;
+                    color: #E66445;
                     transition: 0.3s;
                 }
             }
@@ -201,7 +201,7 @@
                 font-size: 17px;
                 position: relative;
                 &:hover{
-                    color: #ec876e;
+                    color: #E66445;
                 }
                 &:after {
                     content: '';
@@ -211,7 +211,7 @@
                     height: 2px;
                     bottom: -7%;
                     left: 0;
-                    background-color: #ec876e;
+                    background-color: #E66445;
                     transform-origin: bottom right;
                     transition: transform 0.4s ease-out;
                 }           
@@ -226,28 +226,32 @@
 }
 @media screen and (max-width: 576px){
     .footer{
-        margin-top: 100px;
+        margin-top: 80px;
         display: flex;
         justify-content: space-between;
         border-bottom: 1px solid #a5a5a5;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
         .logo{
-            width: 100%;
+            width: 100px;
             margin-left: 4px;
         }
         .socials{        
             .social-logo{
-                font-size: 16px;
+                font-size: 10px;
                 color: black;
                 margin-left: 25px;
                 &:hover{
-                    color: #ec876e;
+                    color: #E66445;
                     transition: 0.3s;
                 }
             }
+            .soc-area{
+                width: 10%;
+                padding-right: 5px;
+            }
         }
         .card-logos{
-            width: 70px;
+            width: 50px;
         }
         .footer-up{
             display: flex;
@@ -255,14 +259,15 @@
             align-items: center;
             .footer-label{
                 color: #a5a5a5;
-                font-size: 11px;
+                font-size: 10px;
             }
         }
         .footer-down{
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 13px;
+            font-size: 8px;
+
             .footer-hour-details{
                 text-align: center;
             }
@@ -272,6 +277,7 @@
     }
     .end{
         margin-bottom: 50px;
+       
         .end-menu{
             display: flex;
             justify-content: space-between;
@@ -279,10 +285,11 @@
             .end-menu-link{
                 text-decoration: none;
                 color: black;
-                font-size: 17px;
+                font-size: 12px;
+                margin-right: 30px;
                 position: relative;
                 &:hover{
-                    color: #ec876e;
+                    color: #E66445;
                 }
                 &:after {
                     content: '';
@@ -292,7 +299,7 @@
                     height: 2px;
                     bottom: -7%;
                     left: 0;
-                    background-color: #ec876e;
+                    background-color: #E66445;
                     transform-origin: bottom right;
                     transition: transform 0.4s ease-out;
                 }           
@@ -303,6 +310,9 @@
                 }
             }
         }
+    }
+    .end-text{
+        font-size: 11px;
     }
 }
 

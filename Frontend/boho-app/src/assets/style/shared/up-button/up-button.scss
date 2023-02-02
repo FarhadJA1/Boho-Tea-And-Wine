@@ -1,0 +1,70 @@
+@media screen and (min-width: 1536px) {
+    .up-button {
+        display: block;
+    }
+    .up-button {
+        color: #E66445;
+        position: fixed;
+        bottom: 10%;
+        right: 10%;
+        border: 2px solid #E66445;
+        border-radius: 20px;
+        transition: 0.5s;
+        opacity: 0;
+
+        &:hover {
+            color: white;
+            background-color: #E66445;
+        }
+
+        .up-button-icon {
+            font-size: 70px;
+
+        }
+    }
+
+    .active {
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width:1536px) {
+    
+    .up-button {
+        color: #E66445;
+        position: fixed;
+        bottom: 8%;
+        right: 8%;
+        border: 2px solid #E66445;
+        border-radius: 20px;
+        transition: 0.5s;
+        opacity: 0;
+
+        &:hover {
+            color: white;
+            background-color: #E66445;
+        }
+
+        .up-button-icon {
+            font-size: 50px;
+
+        }
+    }
+
+    .active {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 576px) {
+    .up-button {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .up-button {
+        display: none;
+    }
+}

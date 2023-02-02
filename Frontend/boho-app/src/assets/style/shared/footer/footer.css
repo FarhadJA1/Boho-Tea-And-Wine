@@ -20,7 +20,7 @@
     margin-left: 35px;
   }
   .footer .socials .social-logo:hover {
-    color: #ec876e;
+    color: #E66445;
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
@@ -68,7 +68,7 @@
     position: relative;
   }
   .end .end-menu .end-menu-link:hover {
-    color: #ec876e;
+    color: #E66445;
   }
   .end .end-menu .end-menu-link:after {
     content: '';
@@ -79,7 +79,7 @@
     height: 2px;
     bottom: -7%;
     left: 0;
-    background-color: #ec876e;
+    background-color: #E66445;
     -webkit-transform-origin: bottom right;
             transform-origin: bottom right;
     -webkit-transition: -webkit-transform 0.4s ease-out;
@@ -116,7 +116,7 @@
     color: black;
   }
   .footer .socials .social-logo:hover {
-    color: #ec876e;
+    color: #E66445;
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
@@ -164,7 +164,7 @@
     position: relative;
   }
   .end .end-menu .end-menu-link:hover {
-    color: #ec876e;
+    color: #E66445;
   }
   .end .end-menu .end-menu-link:after {
     content: '';
@@ -175,7 +175,7 @@
     height: 2px;
     bottom: -7%;
     left: 0;
-    background-color: #ec876e;
+    background-color: #E66445;
     -webkit-transform-origin: bottom right;
             transform-origin: bottom right;
     -webkit-transition: -webkit-transform 0.4s ease-out;
@@ -213,7 +213,7 @@
     margin-left: 25px;
   }
   .footer .socials .social-logo:hover {
-    color: #ec876e;
+    color: #E66445;
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
@@ -269,7 +269,7 @@
     position: relative;
   }
   .end .end-menu .end-menu-link:hover {
-    color: #ec876e;
+    color: #E66445;
   }
   .end .end-menu .end-menu-link:after {
     content: '';
@@ -280,7 +280,7 @@
     height: 2px;
     bottom: -7%;
     left: 0;
-    background-color: #ec876e;
+    background-color: #E66445;
     -webkit-transform-origin: bottom right;
             transform-origin: bottom right;
     -webkit-transition: -webkit-transform 0.4s ease-out;
@@ -298,7 +298,7 @@
 
 @media screen and (max-width: 576px) {
   .footer {
-    margin-top: 100px;
+    margin-top: 80px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -306,24 +306,28 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     border-bottom: 1px solid #a5a5a5;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   .footer .logo {
-    width: 100%;
+    width: 100px;
     margin-left: 4px;
   }
   .footer .socials .social-logo {
-    font-size: 16px;
+    font-size: 10px;
     color: black;
     margin-left: 25px;
   }
   .footer .socials .social-logo:hover {
-    color: #ec876e;
+    color: #E66445;
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
+  .footer .socials .soc-area {
+    width: 10%;
+    padding-right: 5px;
+  }
   .footer .card-logos {
-    width: 70px;
+    width: 50px;
   }
   .footer .footer-up {
     display: -webkit-box;
@@ -338,7 +342,7 @@
   }
   .footer .footer-up .footer-label {
     color: #a5a5a5;
-    font-size: 11px;
+    font-size: 10px;
   }
   .footer .footer-down {
     display: -webkit-box;
@@ -350,7 +354,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    font-size: 13px;
+    font-size: 8px;
   }
   .footer .footer-down .footer-hour-details {
     text-align: center;
@@ -370,11 +374,12 @@
   .end .end-menu .end-menu-link {
     text-decoration: none;
     color: black;
-    font-size: 17px;
+    font-size: 12px;
+    margin-right: 30px;
     position: relative;
   }
   .end .end-menu .end-menu-link:hover {
-    color: #ec876e;
+    color: #E66445;
   }
   .end .end-menu .end-menu-link:after {
     content: '';
@@ -385,7 +390,7 @@
     height: 2px;
     bottom: -7%;
     left: 0;
-    background-color: #ec876e;
+    background-color: #E66445;
     -webkit-transform-origin: bottom right;
             transform-origin: bottom right;
     -webkit-transition: -webkit-transform 0.4s ease-out;
@@ -398,6 +403,9 @@
             transform: scaleX(1);
     -webkit-transform-origin: bottom left;
             transform-origin: bottom left;
+  }
+  .end-text {
+    font-size: 11px;
   }
 }
 /*# sourceMappingURL=footer.css.map */

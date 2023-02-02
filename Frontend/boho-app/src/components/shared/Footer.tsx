@@ -9,14 +9,14 @@ function Footer() {
         <footer>
             <div className='container'>
                 <div className="footer">
-                    <div className="col-xl-1 col-lg-1 col-md-1">
+                    <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1">
                         <div className="row">
                             <img className='logo' src={BohoLogo} alt="" />
                         </div>
 
                     </div>
 
-                    <div className="col-xl-2 col-lg-2 col-md-2">
+                    <div className="col-xl-2 col-lg-2 col-md-2 col-sm-1">
                         <div className="footer-up">
                             <p className='footer-label'>LOCATION</p>
                         </div>
@@ -24,7 +24,7 @@ function Footer() {
                             <p className='text-center'>Hәzi Aslanov, 84, Baku, Azerbaijan</p>
                         </div>
                     </div>
-                    <div className="col-xl-2 col-lg-2 col-md-2">
+                    <div className="col-xl-2 col-lg-2 col-md-2 col-sm-2">
                         <div className="footer-up">
                             <p className='footer-label'>PHONE</p>
                         </div>
@@ -32,7 +32,7 @@ function Footer() {
                             <p>+994 50 209 22 94</p>
                         </div>
                     </div>
-                    <div className="col-xl-2 col-lg-2 col-md-2">
+                    <div className="col-xl-2 col-lg-2 col-md-2 col-sm-2">
                         <div className="footer-up">
                             <p className='footer-label'>HOURS</p>
                         </div>
@@ -40,7 +40,7 @@ function Footer() {
                             <p className='footer-hour-details'>Mon - Sun 10:00 - 01:00</p>
                         </div>
                     </div>
-                    <div className="col-xl-2 col-lg-2 col-md-2">
+                    <div className="col-xl-2 col-lg-2 col-md-2 col-sm-2">
                         <div className="footer-up">
                             <p className='footer-label'>PAYMENT</p>
                         </div>
@@ -48,22 +48,22 @@ function Footer() {
                             <img className='card-logos' src={CardLogos} alt="" />
                         </div>
                     </div>
-                    <div className="col-xl-2 col-lg-2 col-md-2 socials">
+                    <div className="col-xl-2 col-lg-2 col-md-2 col-sm-2 socials">
                         <div className="footer-up">
                             <p className='footer-label'>FOLLOW US</p>
                         </div>
                         <div className="row">
-                            <div className="col-xl-3 col-lg-4 col-md-2">
+                            <div className="col-xl-3 col-lg-4 col-md-2 col-xs-2 soc-area">
                                 <a target={'_blank'} className='social-logo' href='https://www.facebook.com/bohoteaandwineroom/'>
                                     <FaFacebookF />
                                 </a>
                             </div>
-                            <div className="col-xl-3 col-lg-4 col-md-2">
+                            <div className="col-xl-3 col-lg-4 col-md-2 col-sm-2 soc-area">
                                 <a target={'_blank'} className='social-logo' href='https://www.instagram.com/bohoteaandwine/?hl=en'>
                                     <FaInstagram />
                                 </a>
                             </div>
-                            <div className="col-xl-3 col-lg-4 col-md-2">
+                            <div className="col-xl-3 col-lg-4 col-md-2 col-sm-2 soc-area">
                                 <a target={'_blank'} className='social-logo' href='https://www.tripadvisor.com/Restaurant_Review-g293934-d12165225-Reviews-Boho_Tea_Room-Baku_Absheron_Region.html'>
                                     <FaTripadvisor />
                                 </a>
@@ -76,7 +76,7 @@ function Footer() {
             <div className="container">
                 <div className="end">
                     <div className="row justify-content-between">
-                        <div className="col-xl-4 col-lg-4 col-md-6" >
+                        <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6" >
                             <ul className='end-menu'>
                                 <li>
                                     <Link  className='end-menu-link' to={'/'}>Home</Link>
@@ -95,8 +95,8 @@ function Footer() {
                                 </li>
                             </ul>
                         </div>
-                        <div className="col-4">
-                            <p className='text-center'>2023 Boho Tea & Wine Room. All rights reserved.</p>
+                        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                            <p className='text-center end-text'>2023 Boho Tea & Wine Room. All rights reserved.</p>
                         </div>
                     </div>
                 </div>
