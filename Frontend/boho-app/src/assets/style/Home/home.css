@@ -471,7 +471,7 @@
   .tab-menu .tab-menu-contents .tab-menu-content img {
     position: absolute;
     right: 10%;
-    width: 450px;
+    width: 500px;
     height: 700px;
     border-radius: 7px;
   }
@@ -530,8 +530,6 @@
             transform: rotate(3deg);
     z-index: -1;
     border-radius: 7px;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .tab-menu .tab-menu-buttons {
     position: absolute;

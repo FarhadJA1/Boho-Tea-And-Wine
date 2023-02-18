@@ -6,6 +6,7 @@
     height: 120px;
     position: sticky;
     top: 0;
+    
 
     .nav-menu-part {
       height: 100%;
@@ -29,7 +30,7 @@
           ;
           position: relative;
           display: block;
-
+          // border-bottom: 1px solid #E66445;
           text-decoration: none;
           // text-transform: uppercase;
           -webkit-text-stroke: 2px var(--fill-color);
@@ -56,6 +57,7 @@
   .nav-menu {
     width: 100%;
     height: 120px;
+    border-bottom: 1px solid #E66445;
 
     .nav-menu-part {
       padding: 0 !important;

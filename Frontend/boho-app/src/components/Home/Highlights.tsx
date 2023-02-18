@@ -1,8 +1,8 @@
 import React from 'react'
-import SaladImg from "../../assets/images/Home/salad.png";
-import Tea from "../../assets/images/Home/green-tea.png";
-import Sweets from "../../assets/images/Home/sweets.png";
-import Glass from "../../assets/images/Home/wine-glass.png";
+import SaladImg from "../../assets/images/Home/salad (1).png";
+import Tea from "../../assets/images/Home/tea-herbal.png";
+import Sweets from "../../assets/images/Home/cheesecake.png";
+import Glass from "../../assets/images/Home/wine-tasting.png";
 
 function Highlights() {
     return (

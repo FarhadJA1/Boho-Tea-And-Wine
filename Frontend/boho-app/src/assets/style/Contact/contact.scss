@@ -1,0 +1,119 @@
+.contact-page {
+    #contact-header {
+        margin-top: 60px;
+
+        .page-header-icon {
+            justify-content: center;
+
+            .chef-logo {
+                width: 80px;
+            }
+        }
+
+        .page-center-greeting {
+            margin-top: 40px;
+
+            .contact-greeting-up {
+                position: relative;
+
+                .contact-up-left-line:after {
+                    content: "";
+                    position: absolute;
+                    height: 5px;
+                    border-bottom: 1px solid #E66445;
+                    top: 42%;
+                    width: 144px;
+                    left: 30%;
+                }
+
+                .contact-up-right-line:after {
+                    content: "";
+                    position: absolute;
+                    height: 5px;
+                    border-bottom: 1px solid #E66445;
+                    top: 42%;
+                    width: 144px;
+                    right: 30%;
+                }
+
+                .contact-cafe-title {
+                    text-align: center;
+                    font-family: 'Amatic SC', cursive;
+                    font-size: 35px;
+                }
+            }
+
+            .contact-center-text {
+                text-align: center;
+                font-family: 'Roboto Slab', serif;
+                color: #E66445;
+
+            }
+
+            .contact-greeting-down {
+                position: relative;
+
+                .contact-down-left-line:after {
+                    content: "";
+                    position: absolute;
+                    height: 5px;
+                    border-bottom: 1px solid #E66445;
+                    top: 52%;
+                    width: 200px;
+                    left: 29.5%;
+                }
+
+                .contact-down-right-line:after {
+                    content: "";
+                    position: absolute;
+                    height: 5px;
+                    border-bottom: 1px solid #E66445;
+                    top: 52%;
+                    width: 200px;
+                    right: 29.5%;
+                }
+
+                .contact-opening-title {
+                    text-align: center;
+                    font-family: 'Amatic SC', cursive;
+                    font-size: 35px;
+                }
+            }
+
+        }
+
+        .contact-opening-hours-area {
+            justify-content: center;
+
+            .contact-opening-hours {
+                font-family: 'Ubuntu', sans-serif;
+                display: flex;
+                justify-content: space-around;
+
+                .days {
+                    font-size: 20px;
+                    font-weight: 600;
+                    color: grey;
+                }
+
+                .hours {
+                    font-size: 20px;
+                    color: grey;
+                }
+            }
+        }
+
+        .contact-number-area {
+            margin-top: 40px;
+
+            .contact-number {
+                text-align: center;
+                font-family: 'Roboto Slab', serif;
+            }
+        }
+    }
+
+    .map-area {
+        margin-top: 150px;       
+    }
+}

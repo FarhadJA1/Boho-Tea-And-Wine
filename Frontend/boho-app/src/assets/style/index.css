@@ -4,3 +4,7 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
+  ::selection {
+    color: rgb(254, 252, 252);
+    background: #E66445;
+  }

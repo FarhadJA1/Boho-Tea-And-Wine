@@ -1,0 +1,596 @@
+.menu-page {
+    .menu-page-header {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        font-family: 'Amatic SC', cursive;
+        letter-spacing: 4px;
+
+        .menu-decorator {
+            width: 70px;
+            height: 10px;
+            margin: 20px;
+        }
+
+        .menu-decorator-right {
+            margin-left: 12px;
+        }
+    }
+
+    .black-tea {
+        margin-top: 80px;
+        justify-content: space-between;
+
+        .menu-image {
+            border-radius: 276px;
+            margin-top: 15px;
+            height: 750px;
+            width: 100%;
+            margin-top: 50px;
+        }
+
+        .black-tea-content {
+
+            .product-label {
+                display: grid;
+                grid-template-columns: auto 1fr auto;
+
+                .product-name {
+                    font-size: 20px;
+                    color: #E66445;
+                }
+
+                .product-price {
+                    font-size: 20px;
+                    color: #E66445;
+                }
+
+                .menu-dash {
+                    height: 15px;
+                    border-bottom: 1px dashed rgb(199, 199, 199);
+                }
+            }
+
+            .product-desc-area {
+                .product-desc {
+                    color: grey;
+                }
+            }
+
+        }
+
+        .black-tea-label-area {
+            display: flex;
+            align-items: center;
+
+            .black-tea-label {
+                writing-mode: vertical-rl;
+                text-orientation: mixed;
+                font-size: 100px;
+                color: rgb(245, 239, 220);
+            }
+        }
+
+    }
+
+    .green-tea {
+        margin-top: 80px;
+        justify-content: space-between;
+
+        .menu-image {
+            border-radius: 276px;
+            margin-top: 15px;
+            height: 700px;
+            width: 100%;
+        }
+
+        .green-tea-content {
+
+            .product-label {
+                display: grid;
+                grid-template-columns: auto 1fr auto;
+
+                .product-name {
+                    font-size: 20px;
+                    color: #E66445;
+                }
+
+                .product-price {
+                    font-size: 20px;
+                    color: #E66445;
+                }
+
+                .menu-dash {
+                    height: 15px;
+                    border-bottom: 1px dashed rgb(199, 199, 199);
+                }
+            }
+
+            .product-desc-area {
+                .product-desc {
+                    color: grey;
+                }
+            }
+        }
+
+        .green-tea-label-area {
+            display: flex;
+            align-items: center;
+            padding: 0;
+
+            .green-tea-label {
+                writing-mode: vertical-lr;
+                // text-orientation: mixed;
+                font-size: 100px;
+                color: rgb(245, 239, 220);
+                transform: rotate(180deg);
+            }
+        }
+    }
+
+    .herbal-tea {
+        margin-top: 80px;
+        justify-content: space-between;
+
+        .menu-image {
+            border-radius: 276px;
+            margin-top: 35px;
+            height: 700px;
+            width: 100%;
+        }
+
+        .herbal-tea-content {
+
+            .product-label {
+                display: grid;
+                grid-template-columns: auto 1fr auto;
+
+                .product-name {
+                    font-size: 20px;
+                    color: #E66445;
+                }
+
+                .product-price {
+                    font-size: 20px;
+                    color: #E66445;
+                }
+
+                .menu-dash {
+                    height: 15px;
+                    border-bottom: 1px dashed rgb(199, 199, 199);
+                }
+            }
+
+            .product-desc-area {
+                .product-desc {
+                    color: grey;
+                }
+            }
+
+        }
+
+        .herbal-tea-label-area {
+            display: flex;
+            align-items: center;
+
+            .herbal-tea-label {
+                writing-mode: vertical-rl;
+                text-orientation: mixed;
+                font-size: 100px;
+                color: rgb(245, 239, 220);
+            }
+        }
+
+    }
+
+    .fruit-tea {
+        margin-top: 80px;
+        justify-content: space-between;
+
+        .menu-image {
+            border-radius: 246px;
+            margin-top: 50px;
+            margin-left: 15px;
+            height: 750px;
+            width: 100%;
+        }
+
+        .fruit-tea-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .product-label {
+                display: grid;
+                grid-template-columns: auto 1fr auto;
+
+                .product-name {
+                    font-size: 20px;
+                    color: #E66445;
+                }
+
+                .product-price {
+                    font-size: 20px;
+                    color: #E66445;
+                }
+
+                .menu-dash {
+                    height: 15px;
+                    border-bottom: 1px dashed rgb(199, 199, 199);
+                }
+            }
+
+            .product-desc-area {
+                .product-desc {
+                    color: grey;
+                }
+            }
+        }
+
+        .fruit-tea-label-area {
+            display: flex;
+            align-items: center;
+            padding: 0;
+
+            .fruit-tea-label {
+                writing-mode: vertical-lr;
+                // text-orientation: mixed;
+                font-size: 100px;
+                color: rgb(245, 239, 220);
+                transform: rotate(180deg);
+            }
+        }
+    }
+
+    .breakfast {
+        margin-top: 80px;
+        justify-content: space-between;
+
+        .menu-image {
+            border-radius: 276px;
+            height: 700px;
+            width: 100%;
+        }
+
+        .breakfast-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 50px 10px;
+
+            .product-label {
+                display: grid;
+                grid-template-columns: auto 1fr auto;
+
+                .product-name {
+                    font-size: 20px;
+                    color: #E66445;
+                }
+
+                .product-price {
+                    font-size: 20px;
+                    color: #E66445;
+                }
+
+                .menu-dash {
+                    height: 15px;
+                    border-bottom: 1px dashed rgb(199, 199, 199);
+                }
+            }
+
+            .product-desc-area {
+                .product-desc {
+                    color: grey;
+                }
+            }
+
+        }
+
+        .breakfast-label-area {
+            display: flex;
+            align-items: center;
+
+            .breakfast-label {
+                writing-mode: vertical-rl;
+                text-orientation: mixed;
+                font-size: 100px;
+                color: rgb(245, 239, 220);
+            }
+        }
+
+        .menu-desc-area {
+            .menu-desc {
+                border: 1px solid #E66445;
+                padding: 5px;
+                border-radius: 3px;
+
+
+            }
+        }
+
+    }
+
+    .salads {
+        margin-top: 80px;
+        justify-content: space-between;
+
+        .menu-image {
+            border-radius: 276px;
+            margin-top: 15px;
+            height: 700px;
+            width: 100%;
+        }
+
+        .salads-content {
+
+            .product-label {
+                display: grid;
+                grid-template-columns: auto 1fr auto;
+
+                .product-name {
+                    font-size: 20px;
+                    color: #E66445;
+                }
+
+                .product-price {
+                    font-size: 20px;
+                    color: #E66445;
+                }
+
+                .menu-dash {
+                    height: 15px;
+                    border-bottom: 1px dashed rgb(199, 199, 199);
+                }
+            }
+
+            .product-desc-area {
+                .product-desc {
+                    color: grey;
+                }
+            }
+
+        }
+
+        .salads-label-area {
+            display: flex;
+            align-items: center;
+            padding: 0;
+
+            .salads-label {
+                writing-mode: vertical-rl;
+                text-orientation: mixed;
+                font-size: 100px;
+                color: rgb(245, 239, 220);
+                transform: rotate(180deg);
+            }
+        }
+
+    }
+
+    .sandwich {
+        margin-top: 80px;
+        justify-content: space-between;
+
+        .menu-image {
+            border-radius: 276px;
+            height: 700px;
+            width: 100%;
+        }
+
+        .sandwich-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 50px 10px;
+
+            .product-label {
+                display: grid;
+                grid-template-columns: auto 1fr auto;
+
+                .product-name {
+                    font-size: 20px;
+                    color: #E66445;
+                }
+
+                .product-price {
+                    font-size: 20px;
+                    color: #E66445;
+                }
+
+                .menu-dash {
+                    height: 15px;
+                    border-bottom: 1px dashed rgb(199, 199, 199);
+                }
+            }
+
+            .product-desc-area {
+                .product-desc {
+                    color: grey;
+                }
+            }
+
+            .menu-desc-area {
+                .menu-desc {
+                    border: 1px solid #E66445;
+                    padding: 5px;
+                    border-radius: 3px;
+
+                }
+            }
+
+
+        }
+
+        .sandwich-label-area {
+            display: flex;
+            align-items: center;
+
+            .sandwich-label {
+                writing-mode: vertical-rl;
+                text-orientation: mixed;
+                font-size: 100px;
+                color: rgb(245, 239, 220);
+            }
+        }
+
+    }
+
+    .main-dishes {
+        margin-top: 80px;
+        justify-content: space-between;
+
+        .menu-image {
+            border-radius: 276px;
+            margin-top: 15px;
+            height: 700px;
+            width: 100%;
+        }
+
+        .main-dishes-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 70px 10px;
+
+            .product-label {
+                display: grid;
+                grid-template-columns: auto 1fr auto;
+
+                .product-name {
+                    font-size: 20px;
+                    color: #E66445;
+                }
+
+                .product-price {
+                    font-size: 20px;
+                    color: #E66445;
+                }
+
+                .menu-dash {
+                    height: 15px;
+                    border-bottom: 1px dashed rgb(199, 199, 199);
+                }
+            }
+
+            .product-desc-area {
+                .product-desc {
+                    color: grey;
+                }
+            }
+
+        }
+
+        .main-dishes-label-area {
+            display: flex;
+            align-items: center;
+            padding: 0;
+
+            .main-dishes-label {
+                writing-mode: vertical-rl;
+                text-orientation: mixed;
+                font-size: 100px;
+                color: rgb(245, 239, 220);
+                transform: rotate(180deg);
+            }
+        }
+
+    }
+
+    .appetizers {
+        margin-top: 80px;
+        justify-content: space-between;
+
+        .menu-image {
+            border-radius: 276px;
+            height: 700px;
+            width: 100%;
+        }
+
+        .appetizers-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 50px 10px;
+
+            .product-label {
+                display: grid;
+                grid-template-columns: auto 1fr auto;
+
+                .product-name {
+                    font-size: 20px;
+                    color: #E66445;
+                }
+
+                .product-price {
+                    font-size: 20px;
+                    color: #E66445;
+                }
+
+                .menu-dash {
+                    height: 15px;
+                    border-bottom: 1px dashed rgb(199, 199, 199);
+                }
+            }
+
+            .product-desc-area {
+                .product-desc {
+                    color: grey;
+                }
+            }
+
+            .menu-desc-area {
+                .menu-desc {
+                    border: 1px solid #E66445;
+                    padding: 5px;
+                    border-radius: 3px;
+
+                }
+            }
+
+
+        }
+
+        .appetizers-label-area {
+            display: flex;
+            align-items: center;
+
+            .appetizers-label {
+                writing-mode: vertical-rl;
+                text-orientation: mixed;
+                font-size: 100px;
+                color: rgb(245, 239, 220);
+            }
+        }
+
+    }
+
+    .bruschetta-area {
+        position: relative;
+        .bruschetta {
+            width: 100%;
+            height: 1000px;
+            border: 1px solid #E66445;
+            margin-top: 100px;
+            
+            .bruschetta-label {
+                position: absolute;
+                top: 6%;
+                left: 43.5%;
+                font-size: 50px;
+                font-family: 'Allura', cursive;
+                z-index: 2;
+                background-color: white;
+                
+            }
+            .bruschetta-types{
+                margin-top: 60px;
+                .bruschetta-title{
+                    text-align: center;
+                    font-size: 25px;
+                }
+            }
+            
+        }
+    }
+
+}

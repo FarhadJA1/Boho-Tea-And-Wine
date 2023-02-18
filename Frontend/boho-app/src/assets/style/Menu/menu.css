@@ -1,0 +1,665 @@
+.menu-page .menu-page-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px;
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 4px;
+}
+
+.menu-page .menu-page-header .menu-decorator {
+  width: 70px;
+  height: 10px;
+  margin: 20px;
+}
+
+.menu-page .menu-page-header .menu-decorator-right {
+  margin-left: 12px;
+}
+
+.menu-page .black-tea {
+  margin-top: 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-page .black-tea .menu-image {
+  border-radius: 276px;
+  margin-top: 15px;
+  height: 750px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.menu-page .black-tea .black-tea-content .product-label {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr auto;
+      grid-template-columns: auto 1fr auto;
+}
+
+.menu-page .black-tea .black-tea-content .product-label .product-name {
+  font-size: 20px;
+  color: #E66445;
+}
+
+.menu-page .black-tea .black-tea-content .product-label .product-price {
+  font-size: 20px;
+  color: #E66445;
+}
+
+.menu-page .black-tea .black-tea-content .product-label .menu-dash {
+  height: 15px;
+  border-bottom: 1px dashed #c7c7c7;
+}
+
+.menu-page .black-tea .black-tea-content .product-desc-area .product-desc {
+  color: grey;
+}
+
+.menu-page .black-tea .black-tea-label-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-page .black-tea .black-tea-label-area .black-tea-label {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 100px;
+  color: #f5efdc;
+}
+
+.menu-page .green-tea {
+  margin-top: 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-page .green-tea .menu-image {
+  border-radius: 276px;
+  margin-top: 15px;
+  height: 700px;
+  width: 100%;
+}
+
+.menu-page .green-tea .green-tea-content .product-label {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr auto;
+      grid-template-columns: auto 1fr auto;
+}
+
+.menu-page .green-tea .green-tea-content .product-label .product-name {
+  font-size: 20px;
+  color: #E66445;
+}
+
+.menu-page .green-tea .green-tea-content .product-label .product-price {
+  font-size: 20px;
+  color: #E66445;
+}
+
+.menu-page .green-tea .green-tea-content .product-label .menu-dash {
+  height: 15px;
+  border-bottom: 1px dashed #c7c7c7;
+}
+
+.menu-page .green-tea .green-tea-content .product-desc-area .product-desc {
+  color: grey;
+}
+
+.menu-page .green-tea .green-tea-label-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+.menu-page .green-tea .green-tea-label-area .green-tea-label {
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  font-size: 100px;
+  color: #f5efdc;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.menu-page .herbal-tea {
+  margin-top: 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-page .herbal-tea .menu-image {
+  border-radius: 276px;
+  margin-top: 35px;
+  height: 700px;
+  width: 100%;
+}
+
+.menu-page .herbal-tea .herbal-tea-content .product-label {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr auto;
+      grid-template-columns: auto 1fr auto;
+}
+
+.menu-page .herbal-tea .herbal-tea-content .product-label .product-name {
+  font-size: 20px;
+  color: #E66445;
+}
+
+.menu-page .herbal-tea .herbal-tea-content .product-label .product-price {
+  font-size: 20px;
+  color: #E66445;
+}
+
+.menu-page .herbal-tea .herbal-tea-content .product-label .menu-dash {
+  height: 15px;
+  border-bottom: 1px dashed #c7c7c7;
+}
+
+.menu-page .herbal-tea .herbal-tea-content .product-desc-area .product-desc {
+  color: grey;
+}
+
+.menu-page .herbal-tea .herbal-tea-label-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-page .herbal-tea .herbal-tea-label-area .herbal-tea-label {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 100px;
+  color: #f5efdc;
+}
+
+.menu-page .fruit-tea {
+  margin-top: 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-page .fruit-tea .menu-image {
+  border-radius: 246px;
+  margin-top: 50px;
+  margin-left: 15px;
+  height: 750px;
+  width: 100%;
+}
+
+.menu-page .fruit-tea .fruit-tea-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.menu-page .fruit-tea .fruit-tea-content .product-label {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr auto;
+      grid-template-columns: auto 1fr auto;
+}
+
+.menu-page .fruit-tea .fruit-tea-content .product-label .product-name {
+  font-size: 20px;
+  color: #E66445;
+}
+
+.menu-page .fruit-tea .fruit-tea-content .product-label .product-price {
+  font-size: 20px;
+  color: #E66445;
+}
+
+.menu-page .fruit-tea .fruit-tea-content .product-label .menu-dash {
+  height: 15px;
+  border-bottom: 1px dashed #c7c7c7;
+}
+
+.menu-page .fruit-tea .fruit-tea-content .product-desc-area .product-desc {
+  color: grey;
+}
+
+.menu-page .fruit-tea .fruit-tea-label-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+.menu-page .fruit-tea .fruit-tea-label-area .fruit-tea-label {
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  font-size: 100px;
+  color: #f5efdc;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.menu-page .breakfast {
+  margin-top: 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-page .breakfast .menu-image {
+  border-radius: 276px;
+  height: 700px;
+  width: 100%;
+}
+
+.menu-page .breakfast .breakfast-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 50px 10px;
+}
+
+.menu-page .breakfast .breakfast-content .product-label {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr auto;
+      grid-template-columns: auto 1fr auto;
+}
+
+.menu-page .breakfast .breakfast-content .product-label .product-name {
+  font-size: 20px;
+  color: #E66445;
+}
+
+.menu-page .breakfast .breakfast-content .product-label .product-price {
+  font-size: 20px;
+  color: #E66445;
+}
+
+.menu-page .breakfast .breakfast-content .product-label .menu-dash {
+  height: 15px;
+  border-bottom: 1px dashed #c7c7c7;
+}
+
+.menu-page .breakfast .breakfast-content .product-desc-area .product-desc {
+  color: grey;
+}
+
+.menu-page .breakfast .breakfast-label-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-page .breakfast .breakfast-label-area .breakfast-label {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 100px;
+  color: #f5efdc;
+}
+
+.menu-page .breakfast .menu-desc-area .menu-desc {
+  border: 1px solid #E66445;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.menu-page .salads {
+  margin-top: 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-page .salads .menu-image {
+  border-radius: 276px;
+  margin-top: 15px;
+  height: 700px;
+  width: 100%;
+}
+
+.menu-page .salads .salads-content .product-label {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr auto;
+      grid-template-columns: auto 1fr auto;
+}
+
+.menu-page .salads .salads-content .product-label .product-name {
+  font-size: 20px;
+  color: #E66445;
+}
+
+.menu-page .salads .salads-content .product-label .product-price {
+  font-size: 20px;
+  color: #E66445;
+}
+
+.menu-page .salads .salads-content .product-label .menu-dash {
+  height: 15px;
+  border-bottom: 1px dashed #c7c7c7;
+}
+
+.menu-page .salads .salads-content .product-desc-area .product-desc {
+  color: grey;
+}
+
+.menu-page .salads .salads-label-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+.menu-page .salads .salads-label-area .salads-label {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 100px;
+  color: #f5efdc;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.menu-page .sandwich {
+  margin-top: 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-page .sandwich .menu-image {
+  border-radius: 276px;
+  height: 700px;
+  width: 100%;
+}
+
+.menu-page .sandwich .sandwich-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 50px 10px;
+}
+
+.menu-page .sandwich .sandwich-content .product-label {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr auto;
+      grid-template-columns: auto 1fr auto;
+}
+
+.menu-page .sandwich .sandwich-content .product-label .product-name {
+  font-size: 20px;
+  color: #E66445;
+}
+
+.menu-page .sandwich .sandwich-content .product-label .product-price {
+  font-size: 20px;
+  color: #E66445;
+}
+
+.menu-page .sandwich .sandwich-content .product-label .menu-dash {
+  height: 15px;
+  border-bottom: 1px dashed #c7c7c7;
+}
+
+.menu-page .sandwich .sandwich-content .product-desc-area .product-desc {
+  color: grey;
+}
+
+.menu-page .sandwich .sandwich-content .menu-desc-area .menu-desc {
+  border: 1px solid #E66445;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.menu-page .sandwich .sandwich-label-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-page .sandwich .sandwich-label-area .sandwich-label {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 100px;
+  color: #f5efdc;
+}
+
+.menu-page .main-dishes {
+  margin-top: 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-page .main-dishes .menu-image {
+  border-radius: 276px;
+  margin-top: 15px;
+  height: 700px;
+  width: 100%;
+}
+
+.menu-page .main-dishes .main-dishes-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 70px 10px;
+}
+
+.menu-page .main-dishes .main-dishes-content .product-label {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr auto;
+      grid-template-columns: auto 1fr auto;
+}
+
+.menu-page .main-dishes .main-dishes-content .product-label .product-name {
+  font-size: 20px;
+  color: #E66445;
+}
+
+.menu-page .main-dishes .main-dishes-content .product-label .product-price {
+  font-size: 20px;
+  color: #E66445;
+}
+
+.menu-page .main-dishes .main-dishes-content .product-label .menu-dash {
+  height: 15px;
+  border-bottom: 1px dashed #c7c7c7;
+}
+
+.menu-page .main-dishes .main-dishes-content .product-desc-area .product-desc {
+  color: grey;
+}
+
+.menu-page .main-dishes .main-dishes-label-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+.menu-page .main-dishes .main-dishes-label-area .main-dishes-label {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 100px;
+  color: #f5efdc;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.menu-page .appetizers {
+  margin-top: 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-page .appetizers .menu-image {
+  border-radius: 276px;
+  height: 700px;
+  width: 100%;
+}
+
+.menu-page .appetizers .appetizers-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 50px 10px;
+}
+
+.menu-page .appetizers .appetizers-content .product-label {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr auto;
+      grid-template-columns: auto 1fr auto;
+}
+
+.menu-page .appetizers .appetizers-content .product-label .product-name {
+  font-size: 20px;
+  color: #E66445;
+}
+
+.menu-page .appetizers .appetizers-content .product-label .product-price {
+  font-size: 20px;
+  color: #E66445;
+}
+
+.menu-page .appetizers .appetizers-content .product-label .menu-dash {
+  height: 15px;
+  border-bottom: 1px dashed #c7c7c7;
+}
+
+.menu-page .appetizers .appetizers-content .product-desc-area .product-desc {
+  color: grey;
+}
+
+.menu-page .appetizers .appetizers-content .menu-desc-area .menu-desc {
+  border: 1px solid #E66445;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.menu-page .appetizers .appetizers-label-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-page .appetizers .appetizers-label-area .appetizers-label {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 100px;
+  color: #f5efdc;
+}
+
+.menu-page .bruschetta-area {
+  position: relative;
+}
+
+.menu-page .bruschetta-area .bruschetta {
+  width: 100%;
+  height: 1000px;
+  border: 1px solid #E66445;
+  margin-top: 100px;
+}
+
+.menu-page .bruschetta-area .bruschetta .bruschetta-label {
+  position: absolute;
+  top: 6%;
+  left: 43.5%;
+  font-size: 50px;
+  font-family: 'Allura', cursive;
+  z-index: 2;
+  background-color: white;
+}
+
+.menu-page .bruschetta-area .bruschetta .bruschetta-types {
+  margin-top: 60px;
+}
+
+.menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-title {
+  text-align: center;
+  font-size: 25px;
+}
+/*# sourceMappingURL=menu.css.map */
