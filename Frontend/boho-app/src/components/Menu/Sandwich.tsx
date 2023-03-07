@@ -4,8 +4,9 @@ function Sandwich() {
     return (
         <div className='container'>
             <div className="row sandwich">
-                <div className="col-5">
+                <div className="col-5 sandwich-image-area">
                     <img className='menu-image' src={Img} alt="" />
+                    <div className='sandwich-image-frame'></div>
                 </div>
                 <div className="col-6 sandwich-content">
                     <div>

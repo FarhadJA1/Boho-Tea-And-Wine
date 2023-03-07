@@ -4,8 +4,9 @@ function WineAppetizers() {
     return (
         <div className='container'>
             <div className="row appetizers">
-                <div className="col-5">
+                <div className="col-5 appetizer-image-area">
                     <img className='menu-image' src={Img} alt="" />
+                    <div className='appetizer-image-frame'></div>
                 </div>
                 <div className="col-6 appetizers-content">
                     <div>

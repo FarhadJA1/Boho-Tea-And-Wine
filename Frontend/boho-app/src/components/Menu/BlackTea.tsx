@@ -4,8 +4,9 @@ function BlackTea() {
     return (
         <div className='container'>
             <div className="row black-tea">
-                <div className="col-5">
+                <div className="col-5 black-tea-image-area">
                     <img className='menu-image' src={Img} alt="" />
+                    <div className='black-tea-image-frame'></div>
                 </div>
                 <div className="col-6 black-tea-content">
                     <div className='product-label'>

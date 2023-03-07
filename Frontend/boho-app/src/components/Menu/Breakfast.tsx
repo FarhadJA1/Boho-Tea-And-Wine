@@ -4,8 +4,9 @@ function Breakfast() {
     return (
         <div className='container'>
             <div className="row breakfast">
-                <div className="col-5">
+                <div className="col-5 breakfast-image-area">
                     <img className='menu-image' src={Img} alt="" />
+                    <div className='breakfast-image-frame'></div>
                 </div>
                 <div className="col-6 breakfast-content">
                     <div className='product-label'>

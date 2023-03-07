@@ -74,8 +74,9 @@ function GreenTea() {
                         <p className='product-desc'>Delicate thyme is the vital ingredient that refines this aromatic black tea blend and gives it a slightly spicy taste of mountain herbs.</p>
                     </div>
                 </div>
-                <div className="col-5">
+                <div className="col-5 green-tea-image-area">
                     <img className='menu-image' src={Img} alt="" />
+                    <div className='green-tea-image-frame'></div>
                 </div>
             </div>
     </div>

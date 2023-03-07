@@ -21,13 +21,27 @@
         margin-top: 80px;
         justify-content: space-between;
 
-        .menu-image {
-            border-radius: 276px;
-            margin-top: 15px;
-            height: 750px;
-            width: 100%;
-            margin-top: 50px;
+        .black-tea-image-area {
+            position: relative;
+            .menu-image {
+                border-radius: 276px;
+                margin-top: 15px;
+                height: 750px;
+                width: 100%;
+                margin-top: 50px;
+            }
+
+            .black-tea-image-frame {
+                height: 750px;
+                width: 96%;
+                border: 1px solid grey;
+                border-radius: 276px;
+                position: absolute;
+                top: 4%;
+                left: 3%;
+            }
         }
+
 
         .black-tea-content {
 
@@ -36,12 +50,12 @@
                 grid-template-columns: auto 1fr auto;
 
                 .product-name {
-                    font-size: 20px;
+                    font-size: 17px;
                     color: #E66445;
                 }
 
                 .product-price {
-                    font-size: 20px;
+                    font-size: 17px;
                     color: #E66445;
                 }
 
@@ -77,12 +91,25 @@
         margin-top: 80px;
         justify-content: space-between;
 
-        .menu-image {
-            border-radius: 276px;
-            margin-top: 15px;
-            height: 700px;
-            width: 100%;
+        .green-tea-image-area{
+            position: relative;
+            .menu-image {
+                border-radius: 276px;
+                margin-top: 15px;
+                height: 700px;
+                width: 100%;
+            }
+            .green-tea-image-frame {
+                height: 700px;
+                width: 96%;
+                border: 1px solid grey;
+                border-radius: 276px;
+                position: absolute;
+                top: 0%;
+                left: 0%;
+            }
         }
+        
 
         .green-tea-content {
 
@@ -91,12 +118,12 @@
                 grid-template-columns: auto 1fr auto;
 
                 .product-name {
-                    font-size: 20px;
+                    font-size: 17px;
                     color: #E66445;
                 }
 
                 .product-price {
-                    font-size: 20px;
+                    font-size: 17px;
                     color: #E66445;
                 }
 
@@ -132,12 +159,25 @@
         margin-top: 80px;
         justify-content: space-between;
 
-        .menu-image {
-            border-radius: 276px;
-            margin-top: 35px;
-            height: 700px;
-            width: 100%;
+        .herbal-tea-image-area{
+            position: relative;
+            .menu-image {
+                border-radius: 276px;
+                margin-top: 35px;
+                height: 700px;
+                width: 100%;
+            }
+            .herbal-tea-image-frame {
+                height: 700px;
+                width: 96%;
+                border: 1px solid grey;
+                border-radius: 276px;
+                position: absolute;
+                top: 3%;
+                left: 4%;
+            }
         }
+        
 
         .herbal-tea-content {
 
@@ -146,12 +186,12 @@
                 grid-template-columns: auto 1fr auto;
 
                 .product-name {
-                    font-size: 20px;
+                    font-size: 17px;
                     color: #E66445;
                 }
 
                 .product-price {
-                    font-size: 20px;
+                    font-size: 17px;
                     color: #E66445;
                 }
 
@@ -187,13 +227,26 @@
         margin-top: 80px;
         justify-content: space-between;
 
-        .menu-image {
-            border-radius: 246px;
-            margin-top: 50px;
-            margin-left: 15px;
-            height: 750px;
-            width: 100%;
+        .fruit-tea-image-area{
+            position: relative;
+            .menu-image {
+                border-radius: 246px;
+                margin-top: 50px;
+                margin-left: 15px;
+                height: 750px;
+                width: 100%;
+            }
+            .fruit-tea-image-frame{
+                height: 750px;
+                width: 96%;
+                border: 1px solid grey;
+                border-radius: 276px;
+                position: absolute;
+                top: 4%;
+                left: 3%;
+            }
         }
+        
 
         .fruit-tea-content {
             display: flex;
@@ -205,12 +258,12 @@
                 grid-template-columns: auto 1fr auto;
 
                 .product-name {
-                    font-size: 20px;
+                    font-size: 17px;
                     color: #E66445;
                 }
 
                 .product-price {
-                    font-size: 20px;
+                    font-size: 17px;
                     color: #E66445;
                 }
 
@@ -246,11 +299,24 @@
         margin-top: 80px;
         justify-content: space-between;
 
-        .menu-image {
-            border-radius: 276px;
-            height: 700px;
-            width: 100%;
+        .breakfast-image-area{
+            position: relative;
+            .menu-image {
+                border-radius: 276px;
+                height: 700px;
+                width: 100%;
+            }
+            .breakfast-image-frame{
+                height: 700px;
+                width: 96%;
+                border: 1px solid grey;
+                border-radius: 276px;
+                position: absolute;
+                top: 0%;
+                left: 4%;
+            }
         }
+      
 
         .breakfast-content {
             display: flex;
@@ -263,12 +329,12 @@
                 grid-template-columns: auto 1fr auto;
 
                 .product-name {
-                    font-size: 20px;
+                    font-size: 17px;
                     color: #E66445;
                 }
 
                 .product-price {
-                    font-size: 20px;
+                    font-size: 17px;
                     color: #E66445;
                 }
 
@@ -314,12 +380,25 @@
         margin-top: 80px;
         justify-content: space-between;
 
-        .menu-image {
-            border-radius: 276px;
-            margin-top: 15px;
-            height: 700px;
-            width: 100%;
+        .salads-image-area{
+            position: relative;
+            .menu-image {
+                border-radius: 276px;
+                margin-top: 15px;
+                height: 700px;
+                width: 100%;
+            }
+            .salads-image-frame{
+                height: 700px;
+                width: 96%;
+                border: 1px solid grey;
+                border-radius: 276px;
+                position: absolute;
+                top: 0%;
+                left: 0%;
+            }
         }
+       
 
         .salads-content {
 
@@ -328,12 +407,12 @@
                 grid-template-columns: auto 1fr auto;
 
                 .product-name {
-                    font-size: 20px;
+                    font-size: 17px;
                     color: #E66445;
                 }
 
                 .product-price {
-                    font-size: 20px;
+                    font-size: 17px;
                     color: #E66445;
                 }
 
@@ -371,11 +450,24 @@
         margin-top: 80px;
         justify-content: space-between;
 
-        .menu-image {
-            border-radius: 276px;
-            height: 700px;
-            width: 100%;
+        .sandwich-image-area{
+            position: relative;
+            .menu-image {
+                border-radius: 276px;
+                height: 700px;
+                width: 100%;
+            }
+            .sandwich-image-frame{
+                height: 710px;
+                width: 96%;
+                border: 1px solid grey;
+                border-radius: 276px;
+                position: absolute;
+                top: 0%;
+                left: 4%;
+            }
         }
+        
 
         .sandwich-content {
             display: flex;
@@ -388,12 +480,12 @@
                 grid-template-columns: auto 1fr auto;
 
                 .product-name {
-                    font-size: 20px;
+                    font-size: 17px;
                     color: #E66445;
                 }
 
                 .product-price {
-                    font-size: 20px;
+                    font-size: 17px;
                     color: #E66445;
                 }
 
@@ -439,11 +531,24 @@
         margin-top: 80px;
         justify-content: space-between;
 
-        .menu-image {
-            border-radius: 276px;
-            margin-top: 15px;
-            height: 700px;
-            width: 100%;
+       
+        .main-dishes-image-area{
+            position: relative;
+            .menu-image {
+                border-radius: 276px;
+                margin-top: 15px;
+                height: 700px;
+                width: 100%;
+            }
+            .main-dishes-image-frame{
+                height: 700px;
+                width: 96%;
+                border: 1px solid grey;
+                border-radius: 276px;
+                position: absolute;
+                top: 0%;
+                left: 0%;
+            }
         }
 
         .main-dishes-content {
@@ -457,12 +562,12 @@
                 grid-template-columns: auto 1fr auto;
 
                 .product-name {
-                    font-size: 20px;
+                    font-size: 17px;
                     color: #E66445;
                 }
 
                 .product-price {
-                    font-size: 20px;
+                    font-size: 17px;
                     color: #E66445;
                 }
 
@@ -500,10 +605,23 @@
         margin-top: 80px;
         justify-content: space-between;
 
-        .menu-image {
-            border-radius: 276px;
-            height: 700px;
-            width: 100%;
+        
+        .appetizer-image-area{
+            position: relative;
+            .menu-image {
+                border-radius: 276px;
+                height: 700px;
+                width: 100%;
+            }
+            .appetizer-image-frame{
+                height: 710px;
+                width: 96%;
+                border: 1px solid grey;
+                border-radius: 276px;
+                position: absolute;
+                top: 0%;
+                left: 4%;
+            }
         }
 
         .appetizers-content {
@@ -517,12 +635,12 @@
                 grid-template-columns: auto 1fr auto;
 
                 .product-name {
-                    font-size: 20px;
+                    font-size: 17px;
                     color: #E66445;
                 }
 
                 .product-price {
-                    font-size: 20px;
+                    font-size: 17px;
                     color: #E66445;
                 }
 
@@ -547,7 +665,6 @@
                 }
             }
 
-
         }
 
         .appetizers-label-area {
@@ -566,31 +683,189 @@
 
     .bruschetta-area {
         position: relative;
+
         .bruschetta {
             width: 100%;
-            height: 1000px;
-            border: 1px solid #E66445;
-            margin-top: 100px;
-            
+            // border: 1px solid #E66445;
+            margin-top: 150px;
+            padding-bottom: 50px;
+            box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
             .bruschetta-label {
                 position: absolute;
-                top: 6%;
+                top: 22%;
                 left: 43.5%;
                 font-size: 50px;
                 font-family: 'Allura', cursive;
                 z-index: 2;
                 background-color: white;
-                
+
             }
-            .bruschetta-types{
+
+            .bruschetta-types {
                 margin-top: 60px;
-                .bruschetta-title{
+
+                .bruschetta-types-title {
+                    display: flex;
+                    justify-content: center;
+                }
+
+                .bruschetta-title {
                     text-align: center;
                     font-size: 25px;
+                    color: #E66445;
+                }
+
+                .bruschetta-product-area {
+                    border-right: 1px solid #E66445;
+                }
+
+                .bruschetta-products {
+                    list-style: none;
+                    text-align: center;
+                    font-family: 'Ubuntu', sans-serif;
+                }
+
+                .menu-decorator {
+                    width: 40px;
+                    height: 10px;
+                    margin: 18px;
+                }
+
+                .bruschetta-price {
+                    text-align: center;
+                    color: grey;
                 }
             }
-            
         }
     }
 
+    .wine-card {
+        .active {
+            color: #E66445;
+        }
+
+        .wine-card-buttons {
+            margin-top: 60px;
+            font-family: 'Ubuntu', sans-serif;
+            display: flex;
+            justify-content: center;
+
+            .wine-card-button {
+                font-size: 25px;
+                border: none;
+                background-color: transparent;
+                position: relative;
+
+                &:after {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    transform: scaleX(0);
+                    height: 2px;
+                    bottom: 0;
+                    left: 0;
+                    background-color: #E66445;
+                    transform-origin: bottom right;
+                    transition: transform 0.4s ease-out;
+                }
+
+                &:hover {
+                    color: #E66445;
+                }
+
+                &:hover:after {
+                    transform: scaleX(1);
+                    transform-origin: bottom left;
+                }
+            }
+
+            .wine-card-center-button {
+                margin-left: 30px;
+                margin-right: 30px;
+            }
+
+            .wine-card-decorator-area {
+                display: flex;
+                align-items: center;
+
+                .wine-card-decorator {
+                    height: 13px;
+                    width: 60px;
+                }
+
+                .wine-card-decorator-right {
+                    margin-left: 13px;
+                }
+            }
+
+        }
+
+        .wine-card-content {
+            .product-label {
+                display: grid;
+                grid-template-columns: auto 1fr auto;
+
+                .product-name {
+                    font-size: 17px;
+                    color: #E66445;
+                }
+
+                .product-price {
+                    font-size: 17px;
+                    color: #E66445;
+                }
+
+                .menu-dash {
+                    height: 11px;
+                    border-bottom: 1px dashed rgb(199, 199, 199);
+
+                }
+            }
+
+            .product-desc-area {
+                .product-desc {
+                    color: grey;
+                    font-size: 14px;
+                }
+            }
+
+        }
+
+        .wine-card-label-area {
+            display: flex;
+            justify-content: center;
+
+            .wine-card-label {
+                text-align: center;
+                margin-top: 80px;
+                font-family: 'Allura', cursive;
+                font-size: 50px;
+                border-top: 2px solid #E66445;
+                border-bottom: 2px solid #E66445;
+                padding: 0;
+            }
+        }
+
+        .wine-label-area {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+
+            .wine-label {
+                font-size: 35px;
+                font-family: 'Allura', cursive;
+                border-bottom: 2px solid #E66445;
+            }
+        }
+
+        .white-ss-wines {
+            justify-content: center;
+        }
+
+        .desert-wines {
+            justify-content: center;
+        }
+    }
 }

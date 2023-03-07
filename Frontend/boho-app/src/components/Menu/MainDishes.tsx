@@ -54,8 +54,9 @@ function MainDishes() {
                     </div>
 
                 </div>
-                <div className="col-5">
+                <div className="col-5 main-dishes-image-area">
                     <img className='menu-image' src={Img} alt="" />
+                    <div className='main-dishes-image-frame'></div>
                 </div>
             </div>
         </div>

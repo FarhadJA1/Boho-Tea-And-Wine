@@ -90,8 +90,9 @@ function FruitTea() {
                         </div>
                     </div>
                 </div>
-                <div className="col-5">
+                <div className="col-5 fruit-tea-image-area">
                     <img className='menu-image' src={Img} alt="" />
+                    <div className='fruit-tea-image-frame'></div>
                 </div>
             </div>
         </div>

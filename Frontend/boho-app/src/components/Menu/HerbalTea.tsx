@@ -4,8 +4,9 @@ function HerbalTea() {
     return (
         <div className='container'>
             <div className="row herbal-tea">
-                <div className="col-5">
+                <div className="col-5 herbal-tea-image-area">
                     <img className='menu-image' src={Img} alt="" />
+                    <div className='herbal-tea-image-frame'></div>
                 </div>
                 <div className="col-6 herbal-tea-content">
                     <div className='product-label'>

@@ -11,6 +11,7 @@ import MenuPageHeader from '../components/Menu/MenuPageHeader'
 import Salads from '../components/Menu/Salads'
 import Sandwich from '../components/Menu/Sandwich'
 import WineAppetizers from '../components/Menu/WineAppetizers'
+import WineCard from '../components/Menu/WineCard'
 function Menu() {
   return (
     <div className='menu-page'>
@@ -25,6 +26,7 @@ function Menu() {
        <MainDishes/>
        <WineAppetizers/>
        <Bruschetta/>
+       <WineCard/>
     </div>
   )
 }

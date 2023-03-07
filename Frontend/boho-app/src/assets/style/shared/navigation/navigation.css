@@ -110,6 +110,7 @@
   }
   .nav-menu-mobile {
     position: relative;
+    z-index: 10;
   }
   .nav-menu-mobile .nav-menu-part .logo-mobile {
     width: 65px;
@@ -128,7 +129,7 @@
   }
   #menuToggle a {
     text-decoration: none;
-    color: #E66445;
+    color: white;
     -webkit-transition: color 0.3s ease;
     transition: color 0.3s ease;
   }
@@ -192,7 +193,7 @@
     margin-left: -150px;
     padding: 50px;
     padding-top: 30px;
-    background: #f7f6f6;
+    background: #E66445;
     border-radius: 7px;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;

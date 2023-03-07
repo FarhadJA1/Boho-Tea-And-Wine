@@ -74,8 +74,9 @@ function Salads() {
                         <p className='product-desc'>Fried in butter shrimps, aragula, cherry tomato, corns, cucumber, red onion, red cabbage, mustard salad, almond.</p>
                     </div>
                 </div>
-                <div className="col-5">
+                <div className="col-5 salads-image-area">
                     <img className='menu-image' src={Img} alt="" />
+                    <div className='salads-image-frame'></div>
                 </div>
             </div>
         </div>

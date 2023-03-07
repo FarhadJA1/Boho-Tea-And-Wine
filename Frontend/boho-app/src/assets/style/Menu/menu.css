@@ -27,12 +27,26 @@
           justify-content: space-between;
 }
 
-.menu-page .black-tea .menu-image {
+.menu-page .black-tea .black-tea-image-area {
+  position: relative;
+}
+
+.menu-page .black-tea .black-tea-image-area .menu-image {
   border-radius: 276px;
   margin-top: 15px;
   height: 750px;
   width: 100%;
   margin-top: 50px;
+}
+
+.menu-page .black-tea .black-tea-image-area .black-tea-image-frame {
+  height: 750px;
+  width: 96%;
+  border: 1px solid grey;
+  border-radius: 276px;
+  position: absolute;
+  top: 4%;
+  left: 3%;
 }
 
 .menu-page .black-tea .black-tea-content .product-label {
@@ -43,12 +57,12 @@
 }
 
 .menu-page .black-tea .black-tea-content .product-label .product-name {
-  font-size: 20px;
+  font-size: 17px;
   color: #E66445;
 }
 
 .menu-page .black-tea .black-tea-content .product-label .product-price {
-  font-size: 20px;
+  font-size: 17px;
   color: #E66445;
 }
 
@@ -86,11 +100,25 @@
           justify-content: space-between;
 }
 
-.menu-page .green-tea .menu-image {
+.menu-page .green-tea .green-tea-image-area {
+  position: relative;
+}
+
+.menu-page .green-tea .green-tea-image-area .menu-image {
   border-radius: 276px;
   margin-top: 15px;
   height: 700px;
   width: 100%;
+}
+
+.menu-page .green-tea .green-tea-image-area .green-tea-image-frame {
+  height: 700px;
+  width: 96%;
+  border: 1px solid grey;
+  border-radius: 276px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
 }
 
 .menu-page .green-tea .green-tea-content .product-label {
@@ -101,12 +129,12 @@
 }
 
 .menu-page .green-tea .green-tea-content .product-label .product-name {
-  font-size: 20px;
+  font-size: 17px;
   color: #E66445;
 }
 
 .menu-page .green-tea .green-tea-content .product-label .product-price {
-  font-size: 20px;
+  font-size: 17px;
   color: #E66445;
 }
 
@@ -146,11 +174,25 @@
           justify-content: space-between;
 }
 
-.menu-page .herbal-tea .menu-image {
+.menu-page .herbal-tea .herbal-tea-image-area {
+  position: relative;
+}
+
+.menu-page .herbal-tea .herbal-tea-image-area .menu-image {
   border-radius: 276px;
   margin-top: 35px;
   height: 700px;
   width: 100%;
+}
+
+.menu-page .herbal-tea .herbal-tea-image-area .herbal-tea-image-frame {
+  height: 700px;
+  width: 96%;
+  border: 1px solid grey;
+  border-radius: 276px;
+  position: absolute;
+  top: 3%;
+  left: 4%;
 }
 
 .menu-page .herbal-tea .herbal-tea-content .product-label {
@@ -161,12 +203,12 @@
 }
 
 .menu-page .herbal-tea .herbal-tea-content .product-label .product-name {
-  font-size: 20px;
+  font-size: 17px;
   color: #E66445;
 }
 
 .menu-page .herbal-tea .herbal-tea-content .product-label .product-price {
-  font-size: 20px;
+  font-size: 17px;
   color: #E66445;
 }
 
@@ -204,12 +246,26 @@
           justify-content: space-between;
 }
 
-.menu-page .fruit-tea .menu-image {
+.menu-page .fruit-tea .fruit-tea-image-area {
+  position: relative;
+}
+
+.menu-page .fruit-tea .fruit-tea-image-area .menu-image {
   border-radius: 246px;
   margin-top: 50px;
   margin-left: 15px;
   height: 750px;
   width: 100%;
+}
+
+.menu-page .fruit-tea .fruit-tea-image-area .fruit-tea-image-frame {
+  height: 750px;
+  width: 96%;
+  border: 1px solid grey;
+  border-radius: 276px;
+  position: absolute;
+  top: 4%;
+  left: 3%;
 }
 
 .menu-page .fruit-tea .fruit-tea-content {
@@ -232,12 +288,12 @@
 }
 
 .menu-page .fruit-tea .fruit-tea-content .product-label .product-name {
-  font-size: 20px;
+  font-size: 17px;
   color: #E66445;
 }
 
 .menu-page .fruit-tea .fruit-tea-content .product-label .product-price {
-  font-size: 20px;
+  font-size: 17px;
   color: #E66445;
 }
 
@@ -277,10 +333,24 @@
           justify-content: space-between;
 }
 
-.menu-page .breakfast .menu-image {
+.menu-page .breakfast .breakfast-image-area {
+  position: relative;
+}
+
+.menu-page .breakfast .breakfast-image-area .menu-image {
   border-radius: 276px;
   height: 700px;
   width: 100%;
+}
+
+.menu-page .breakfast .breakfast-image-area .breakfast-image-frame {
+  height: 700px;
+  width: 96%;
+  border: 1px solid grey;
+  border-radius: 276px;
+  position: absolute;
+  top: 0%;
+  left: 4%;
 }
 
 .menu-page .breakfast .breakfast-content {
@@ -304,12 +374,12 @@
 }
 
 .menu-page .breakfast .breakfast-content .product-label .product-name {
-  font-size: 20px;
+  font-size: 17px;
   color: #E66445;
 }
 
 .menu-page .breakfast .breakfast-content .product-label .product-price {
-  font-size: 20px;
+  font-size: 17px;
   color: #E66445;
 }
 
@@ -353,11 +423,25 @@
           justify-content: space-between;
 }
 
-.menu-page .salads .menu-image {
+.menu-page .salads .salads-image-area {
+  position: relative;
+}
+
+.menu-page .salads .salads-image-area .menu-image {
   border-radius: 276px;
   margin-top: 15px;
   height: 700px;
   width: 100%;
+}
+
+.menu-page .salads .salads-image-area .salads-image-frame {
+  height: 700px;
+  width: 96%;
+  border: 1px solid grey;
+  border-radius: 276px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
 }
 
 .menu-page .salads .salads-content .product-label {
@@ -368,12 +452,12 @@
 }
 
 .menu-page .salads .salads-content .product-label .product-name {
-  font-size: 20px;
+  font-size: 17px;
   color: #E66445;
 }
 
 .menu-page .salads .salads-content .product-label .product-price {
-  font-size: 20px;
+  font-size: 17px;
   color: #E66445;
 }
 
@@ -414,10 +498,24 @@
           justify-content: space-between;
 }
 
-.menu-page .sandwich .menu-image {
+.menu-page .sandwich .sandwich-image-area {
+  position: relative;
+}
+
+.menu-page .sandwich .sandwich-image-area .menu-image {
   border-radius: 276px;
   height: 700px;
   width: 100%;
+}
+
+.menu-page .sandwich .sandwich-image-area .sandwich-image-frame {
+  height: 710px;
+  width: 96%;
+  border: 1px solid grey;
+  border-radius: 276px;
+  position: absolute;
+  top: 0%;
+  left: 4%;
 }
 
 .menu-page .sandwich .sandwich-content {
@@ -441,12 +539,12 @@
 }
 
 .menu-page .sandwich .sandwich-content .product-label .product-name {
-  font-size: 20px;
+  font-size: 17px;
   color: #E66445;
 }
 
 .menu-page .sandwich .sandwich-content .product-label .product-price {
-  font-size: 20px;
+  font-size: 17px;
   color: #E66445;
 }
 
@@ -490,11 +588,25 @@
           justify-content: space-between;
 }
 
-.menu-page .main-dishes .menu-image {
+.menu-page .main-dishes .main-dishes-image-area {
+  position: relative;
+}
+
+.menu-page .main-dishes .main-dishes-image-area .menu-image {
   border-radius: 276px;
   margin-top: 15px;
   height: 700px;
   width: 100%;
+}
+
+.menu-page .main-dishes .main-dishes-image-area .main-dishes-image-frame {
+  height: 700px;
+  width: 96%;
+  border: 1px solid grey;
+  border-radius: 276px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
 }
 
 .menu-page .main-dishes .main-dishes-content {
@@ -518,12 +630,12 @@
 }
 
 .menu-page .main-dishes .main-dishes-content .product-label .product-name {
-  font-size: 20px;
+  font-size: 17px;
   color: #E66445;
 }
 
 .menu-page .main-dishes .main-dishes-content .product-label .product-price {
-  font-size: 20px;
+  font-size: 17px;
   color: #E66445;
 }
 
@@ -564,10 +676,24 @@
           justify-content: space-between;
 }
 
-.menu-page .appetizers .menu-image {
+.menu-page .appetizers .appetizer-image-area {
+  position: relative;
+}
+
+.menu-page .appetizers .appetizer-image-area .menu-image {
   border-radius: 276px;
   height: 700px;
   width: 100%;
+}
+
+.menu-page .appetizers .appetizer-image-area .appetizer-image-frame {
+  height: 710px;
+  width: 96%;
+  border: 1px solid grey;
+  border-radius: 276px;
+  position: absolute;
+  top: 0%;
+  left: 4%;
 }
 
 .menu-page .appetizers .appetizers-content {
@@ -591,12 +717,12 @@
 }
 
 .menu-page .appetizers .appetizers-content .product-label .product-name {
-  font-size: 20px;
+  font-size: 17px;
   color: #E66445;
 }
 
 .menu-page .appetizers .appetizers-content .product-label .product-price {
-  font-size: 20px;
+  font-size: 17px;
   color: #E66445;
 }
 
@@ -639,14 +765,15 @@
 
 .menu-page .bruschetta-area .bruschetta {
   width: 100%;
-  height: 1000px;
-  border: 1px solid #E66445;
-  margin-top: 100px;
+  margin-top: 150px;
+  padding-bottom: 50px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+          box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
 .menu-page .bruschetta-area .bruschetta .bruschetta-label {
   position: absolute;
-  top: 6%;
+  top: 22%;
   left: 43.5%;
   font-size: 50px;
   font-family: 'Allura', cursive;
@@ -658,8 +785,188 @@
   margin-top: 60px;
 }
 
+.menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-types-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-title {
   text-align: center;
   font-size: 25px;
+  color: #E66445;
+}
+
+.menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-product-area {
+  border-right: 1px solid #E66445;
+}
+
+.menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-products {
+  list-style: none;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.menu-page .bruschetta-area .bruschetta .bruschetta-types .menu-decorator {
+  width: 40px;
+  height: 10px;
+  margin: 18px;
+}
+
+.menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-price {
+  text-align: center;
+  color: grey;
+}
+
+.menu-page .wine-card .active {
+  color: #E66445;
+}
+
+.menu-page .wine-card .wine-card-buttons {
+  margin-top: 60px;
+  font-family: 'Ubuntu', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menu-page .wine-card .wine-card-buttons .wine-card-button {
+  font-size: 25px;
+  border: none;
+  background-color: transparent;
+  position: relative;
+}
+
+.menu-page .wine-card .wine-card-buttons .wine-card-button:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #E66445;
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+  -webkit-transition: -webkit-transform 0.4s ease-out;
+  transition: -webkit-transform 0.4s ease-out;
+  transition: transform 0.4s ease-out;
+  transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
+}
+
+.menu-page .wine-card .wine-card-buttons .wine-card-button:hover {
+  color: #E66445;
+}
+
+.menu-page .wine-card .wine-card-buttons .wine-card-button:hover:after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+.menu-page .wine-card .wine-card-buttons .wine-card-center-button {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.menu-page .wine-card .wine-card-buttons .wine-card-decorator-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-page .wine-card .wine-card-buttons .wine-card-decorator-area .wine-card-decorator {
+  height: 13px;
+  width: 60px;
+}
+
+.menu-page .wine-card .wine-card-buttons .wine-card-decorator-area .wine-card-decorator-right {
+  margin-left: 13px;
+}
+
+.menu-page .wine-card .wine-card-content .product-label {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr auto;
+      grid-template-columns: auto 1fr auto;
+}
+
+.menu-page .wine-card .wine-card-content .product-label .product-name {
+  font-size: 17px;
+  color: #E66445;
+}
+
+.menu-page .wine-card .wine-card-content .product-label .product-price {
+  font-size: 17px;
+  color: #E66445;
+}
+
+.menu-page .wine-card .wine-card-content .product-label .menu-dash {
+  height: 11px;
+  border-bottom: 1px dashed #c7c7c7;
+}
+
+.menu-page .wine-card .wine-card-content .product-desc-area .product-desc {
+  color: grey;
+  font-size: 14px;
+}
+
+.menu-page .wine-card .wine-card-label-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menu-page .wine-card .wine-card-label-area .wine-card-label {
+  text-align: center;
+  margin-top: 80px;
+  font-family: 'Allura', cursive;
+  font-size: 50px;
+  border-top: 2px solid #E66445;
+  border-bottom: 2px solid #E66445;
+  padding: 0;
+}
+
+.menu-page .wine-card .wine-label-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.menu-page .wine-card .wine-label-area .wine-label {
+  font-size: 35px;
+  font-family: 'Allura', cursive;
+  border-bottom: 2px solid #E66445;
+}
+
+.menu-page .wine-card .white-ss-wines {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menu-page .wine-card .desert-wines {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=menu.css.map */
