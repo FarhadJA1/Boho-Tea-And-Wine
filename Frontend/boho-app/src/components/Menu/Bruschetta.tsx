@@ -2,117 +2,232 @@ import React from 'react'
 import Decorator from '../../assets/images/Home/orange-decorator.png'
 function Bruschetta() {
     return (
-        <div className="bruschetta-area">
-            <div className="container">
-                <div className="row">
-                    <div className='bruschetta'>
-                        <span className='bruschetta-label'>Bruschettas</span>
-                        <div className="row bruschetta-types">
-                            <div className="col-4 bruschetta-product-area">
-                                <div className='bruschetta-types-title'>
-                                    <img className='menu-decorator' src={Decorator} alt="" />
-                                    <span className='bruschetta-title'>With meat</span>
-                                    <img className='menu-decorator' src={Decorator} alt="" />
+        <section id='bruschettas'>
+            <div className="bruschetta-area device-computer">
+                <div className="container">
+                    <div className="row">
+                        <div className='bruschetta'>
+                            <span className='bruschetta-label'>Bruschettas</span>
+                            <div className="row bruschetta-types">
+                                <div className="col-4 bruschetta-product-area">
+                                    <div className='bruschetta-types-title'>
+                                        <img className='menu-decorator' src={Decorator} alt="" />
+                                        <span className='bruschetta-title'>With meat</span>
+                                        <img className='menu-decorator' src={Decorator} alt="" />
+                                    </div>
+                                    <div className="row">
+                                        <ul className='with-meet bruschetta-products'>
+                                            <li>
+                                                <span>- </span>
+                                                <span>with smoked salmon</span>
+                                            </li>
+                                            <li>
+                                                <span>- </span>
+                                                <span>with smoked bacon</span>
+                                            </li>
+                                            <li>
+                                                <span>- </span>
+                                                <span>with butter fried shrimps</span>
+                                            </li>
+                                            <li>
+                                                <span>- </span>
+                                                <span>with tuna</span>
+                                            </li>
+                                            <li>
+                                                <span>- </span>
+                                                <span>with salami</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div className="row bruschetta-prices-area">
+                                        <span className='bruschetta-price'>* 3 pieces for 11 azn</span>
+                                        <span className='bruschetta-price'>* 5 pieces for 14 azn</span>
+                                    </div>
                                 </div>
-                                <div className="row">
-                                    <ul className='with-meet bruschetta-products'>
-                                        <li>
-                                            <span>- </span>
-                                            <span>with smoked salmon</span>
-                                        </li>
-                                        <li>
-                                            <span>- </span>
-                                            <span>with smoked bacon</span>
-                                        </li>
-                                        <li>
-                                            <span>- </span>
-                                            <span>with butter fried shrimps</span>
-                                        </li>
-                                        <li>
-                                            <span>- </span>
-                                            <span>with tuna</span>
-                                        </li>
-                                        <li>
-                                            <span>- </span>
-                                            <span>with salami</span>
-                                        </li>
-                                    </ul>
+                                <div className="col-4 bruschetta-product-area">
+                                    <div className="bruschetta-types-title">
+                                        <img className='menu-decorator' src={Decorator} alt="" />
+                                        <p className='bruschetta-title'>Vegetarian</p>
+                                        <img className='menu-decorator' src={Decorator} alt="" />
+                                    </div>
+                                    <div className="row">
+                                        <ul className='with-meet bruschetta-products'>
+                                            <li>
+                                                <span>- </span>
+                                                <span>classic (tomato,white cheese, pesto)</span>
+                                            </li>
+                                            <li>
+                                                <span>- </span>
+                                                <span>with avocado and cream cheese</span>
+                                            </li>
+                                            <li>
+                                                <span>- </span>
+                                                <span>with hummus</span>
+                                            </li>
+                                            <li>
+                                                <span>- </span>
+                                                <span>with mushroom and spinach in cream sauce</span>
+                                            </li>
+                                            <li>
+                                                <span>- </span>
+                                                <span>with sun-dried tomatoes in olive oil</span>
+                                            </li>
+                                            <li>
+                                                <span>- </span>
+                                                <span>with broccoli and cheddar</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div className="row bruschetta-prices-area">
+                                        <span className='bruschetta-price'>* 3 pieces for 8 azn</span>
+                                        <span className='bruschetta-price'>* 5 pieces for 11 azn</span>
+                                    </div>
                                 </div>
-                                <div className="row bruschetta-prices-area">
-                                    <span className='bruschetta-price'>* 3 pieces for 11 azn</span>
-                                    <span className='bruschetta-price'>* 5 pieces for 14 azn</span>
+                                <div className="col-4">
+                                    <div className="bruschetta-types-title">
+                                        <img className='menu-decorator' src={Decorator} alt="" />
+                                        <p className='bruschetta-title'>Salted caramel</p>
+                                        <img className='menu-decorator' src={Decorator} alt="" />
+                                    </div>
+                                    <div className="row">
+                                        <ul className='with-meet bruschetta-products'>
+                                            <li>
+                                                <span>- </span>
+                                                <span>with peanut butter and apple</span>
+                                            </li>
+                                            <li>
+                                                <span>- </span>
+                                                <span>with cream cheese, grapes, almond and honey</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div className="row bruschetta-prices-area">
+                                        <span className='bruschetta-price'>* 3 pieces for 8 azn</span>
+                                        <span className='bruschetta-price'>* 5 pieces for 11 azn</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="col-4 bruschetta-product-area">
-                                <div className="bruschetta-types-title">
-                                    <img className='menu-decorator' src={Decorator} alt="" />
-                                    <p className='bruschetta-title'>Vegetarian</p>
-                                    <img className='menu-decorator' src={Decorator} alt="" />
-                                </div>
-                                <div className="row">
-                                    <ul className='with-meet bruschetta-products'>
-                                        <li>
-                                            <span>- </span>
-                                            <span>classic (tomato,white cheese, pesto)</span>
-                                        </li>
-                                        <li>
-                                            <span>- </span>
-                                            <span>with avocado and cream cheese</span>
-                                        </li>
-                                        <li>
-                                            <span>- </span>
-                                            <span>with hummus</span>
-                                        </li>
-                                        <li>
-                                            <span>- </span>
-                                            <span>with mushroom and spinach in cream sauce</span>
-                                        </li>
-                                        <li>
-                                            <span>- </span>
-                                            <span>with sun-dried tomatoes in olive oil</span>
-                                        </li>
-                                        <li>
-                                            <span>- </span>
-                                            <span>with broccoli and cheddar</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className="row bruschetta-prices-area">
-                                    <span className='bruschetta-price'>* 3 pieces for 8 azn</span>
-                                    <span className='bruschetta-price'>* 5 pieces for 11 azn</span>
-                                </div>
-                            </div>
-                            <div className="col-4">
-                                <div className="bruschetta-types-title">
-                                    <img className='menu-decorator' src={Decorator} alt="" />
-                                    <p className='bruschetta-title'>Salted caramel</p>
-                                    <img className='menu-decorator' src={Decorator} alt="" />
-                                </div>
-                                <div className="row">
-                                    <ul className='with-meet bruschetta-products'>
-                                        <li>
-                                            <span>- </span>
-                                            <span>with peanut butter and apple</span>
-                                        </li>
-                                        <li>
-                                            <span>- </span>
-                                            <span>with cream cheese, grapes, almond and honey</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className="row bruschetta-prices-area">
-                                    <span className='bruschetta-price'>* 3 pieces for 8 azn</span>
-                                    <span className='bruschetta-price'>* 5 pieces for 11 azn</span>
-                                </div>
+
                             </div>
 
                         </div>
-
                     </div>
-                </div>
 
+                </div>
             </div>
-        </div>
+            <div className="bruschetta-area device-mobile">
+                <div className="container">
+                    <div className="row">
+                        <div className='bruschetta'>
+                            <p className='bruschetta-label'>Bruschettas</p>
+                            <div className="row bruschetta-types">
+                                <div className="col-12 bruschetta-product-area">
+                                    <div className='bruschetta-types-title'>
+                                        <img className='menu-decorator' src={Decorator} alt="" />
+                                        <span className='bruschetta-title'>With meat</span>
+                                        <img className='menu-decorator' src={Decorator} alt="" />
+                                    </div>
+                                    <div className="row">
+                                        <ul className='with-meet bruschetta-products'>
+                                            <li>
+                                                <span>- </span>
+                                                <span className='bruschetta-composition'>with smoked salmon</span>
+                                            </li>
+                                            <li>
+                                                <span>- </span>
+                                                <span className='bruschetta-composition'>with smoked bacon</span>
+                                            </li>
+                                            <li>
+                                                <span>- </span>
+                                                <span className='bruschetta-composition'>with butter fried shrimps</span>
+                                            </li>
+                                            <li>
+                                                <span>- </span>
+                                                <span className='bruschetta-composition'>with tuna</span>
+                                            </li>
+                                            <li>
+                                                <span>- </span>
+                                                <span className='bruschetta-composition'>with salami</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div className="row bruschetta-prices-area">
+                                        <span className='bruschetta-price'>* 3 pieces for 11 azn</span>
+                                        <span className='bruschetta-price'>* 5 pieces for 14 azn</span>
+                                    </div>
+                                </div>
+                                <div className="col-12 bruschetta-product-area">
+                                    <div className="bruschetta-types-title">
+                                        <img className='menu-decorator' src={Decorator} alt="" />
+                                        <p className='bruschetta-title'>Vegetarian</p>
+                                        <img className='menu-decorator' src={Decorator} alt="" />
+                                    </div>
+                                    <div className="row">
+                                        <ul className='with-meet bruschetta-products'>
+                                            <li>
+                                                <span>- </span>
+                                                <span className='bruschetta-composition'>classic (tomato,white cheese, pesto)</span>
+                                            </li>
+                                            <li>
+                                                <span>- </span>
+                                                <span className='bruschetta-composition'>with avocado and cream cheese</span>
+                                            </li>
+                                            <li>
+                                                <span>- </span>
+                                                <span className='bruschetta-composition'>with hummus</span>
+                                            </li>
+                                            <li>
+                                                <span>- </span>
+                                                <span className='bruschetta-composition'>with mushroom and spinach in cream sauce</span>
+                                            </li>
+                                            <li>
+                                                <span>- </span>
+                                                <span className='bruschetta-composition'>with sun-dried tomatoes in olive oil</span>
+                                            </li>
+                                            <li>
+                                                <span>- </span>
+                                                <span className='bruschetta-composition'>with broccoli and cheddar</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div className="row bruschetta-prices-area">
+                                        <span className='bruschetta-price'>* 3 pieces for 8 azn</span>
+                                        <span className='bruschetta-price'>* 5 pieces for 11 azn</span>
+                                    </div>
+                                </div>
+                                <div className="col-12">
+                                    <div className="bruschetta-types-title">
+                                        <img className='menu-decorator' src={Decorator} alt="" />
+                                        <p className='bruschetta-title'>Salted caramel</p>
+                                        <img className='menu-decorator' src={Decorator} alt="" />
+                                    </div>
+                                    <div className="row">
+                                        <ul className='with-meet bruschetta-products'>
+                                            <li>
+                                                <span>- </span>
+                                                <span className='bruschetta-composition'>with peanut butter and apple</span>
+                                            </li>
+                                            <li>
+                                                <span>- </span>
+                                                <span className='bruschetta-composition'>with cream cheese, grapes, almond and honey</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div className="row bruschetta-prices-area">
+                                        <span className='bruschetta-price'>* 3 pieces for 8 azn</span>
+                                        <span className='bruschetta-price'>* 5 pieces for 11 azn</span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
 
 
     )

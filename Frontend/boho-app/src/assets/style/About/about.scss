@@ -32,7 +32,7 @@
     }
 }
 
-@media screen and (max-width: 992px) and (min-width: 576px) {
+@media screen and (min-width: 992px) and (max-width: 1536px) {
     .about-page{    
         .about-header{
             display: flex;
@@ -41,7 +41,7 @@
             font-family: 'Amatic SC', cursive;
             letter-spacing: 4px;
             .about-decorator{
-                width: 70px;
+                width: 80px;
                 height: 10px;
                 margin: 20px;
             }
@@ -103,9 +103,9 @@
             font-family: 'Amatic SC', cursive;
             letter-spacing: 4px;
             .about-decorator{
-                width: 70px;
+                width: 50px;
                 height: 10px;
-                margin: 20px;
+                margin: 12px;
             }
         }
         .about-content-texts{

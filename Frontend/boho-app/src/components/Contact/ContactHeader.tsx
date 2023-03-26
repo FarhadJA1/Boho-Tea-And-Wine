@@ -24,7 +24,7 @@ function ContactHeader() {
                     </div>
                 </div>
                 <div className="row contact-opening-hours-area">
-                    <div className='col-3 contact-opening-hours'>
+                    <div className='col-xl-3 col-lg-3 col-md-12 col-sm-3 contact-opening-hours'>
                         <span className='days'>Monday - Sunday </span>
                         <span className='hours'>10:00 - 01:00 </span>
                     </div>

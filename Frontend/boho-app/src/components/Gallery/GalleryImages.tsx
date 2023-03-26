@@ -2,34 +2,35 @@ import React from 'react'
 import Img from '../../assets/images/Menu/menu-image.jpg'
 function GalleryImages() {
     return (
-        <div className='container-fluid'>
-            <div className="gallery-images">
-                <div className="row photo-grid">
-                    <div className="col-4 small-photos">
-                        <div className="row small-photo">
+        <div className='container-fluid mt-5'>
+            <div className="gallery-images ">
+                <div className="row photo-grid photo-grid-up">
+                    <div className="small-photos small-photos-up">
+                        <div className="small-photo">
                             <img src={Img} />
                         </div>
-                        <div className="row small-photo">
-                            <img src={Img} />
-                        </div>
-                    </div>
-                    <div className="col-8">
-                        <div className="row big-photo">
+                        <div className="small-photo">
                             <img src={Img} />
                         </div>
                     </div>
+
+
+                    <div className="big-photo">
+                        <img src={Img} />
+                    </div>
+
+
                 </div>
-                <div className="row photo-grid">                    
-                    <div className="col-8">
-                        <div className="row big-photo">
-                            <img src={Img} />
-                        </div>
+                <div className="row photo-grid">
+                    <div className="big-photo">
+                        <img src={Img} />
                     </div>
-                    <div className="col-4 small-photos">
-                        <div className="row small-photo">
+
+                    <div className="small-photos">
+                        <div className="small-photo">
                             <img src={Img} />
                         </div>
-                        <div className="row small-photo">
+                        <div className="small-photo">
                             <img src={Img} />
                         </div>
                     </div>

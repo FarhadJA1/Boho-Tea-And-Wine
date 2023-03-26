@@ -1,972 +1,3042 @@
-.menu-page .menu-page-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 100px;
-  font-family: 'Amatic SC', cursive;
-  letter-spacing: 4px;
-}
-
-.menu-page .menu-page-header .menu-decorator {
-  width: 70px;
-  height: 10px;
-  margin: 20px;
-}
-
-.menu-page .menu-page-header .menu-decorator-right {
-  margin-left: 12px;
-}
-
-.menu-page .black-tea {
-  margin-top: 80px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.menu-page .black-tea .black-tea-image-area {
-  position: relative;
-}
-
-.menu-page .black-tea .black-tea-image-area .menu-image {
-  border-radius: 276px;
-  margin-top: 15px;
-  height: 750px;
-  width: 100%;
-  margin-top: 50px;
-}
-
-.menu-page .black-tea .black-tea-image-area .black-tea-image-frame {
-  height: 750px;
-  width: 96%;
-  border: 1px solid grey;
-  border-radius: 276px;
-  position: absolute;
-  top: 4%;
-  left: 3%;
-}
-
-.menu-page .black-tea .black-tea-content .product-label {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto 1fr auto;
-      grid-template-columns: auto 1fr auto;
-}
-
-.menu-page .black-tea .black-tea-content .product-label .product-name {
-  font-size: 17px;
-  color: #E66445;
-}
-
-.menu-page .black-tea .black-tea-content .product-label .product-price {
-  font-size: 17px;
-  color: #E66445;
-}
-
-.menu-page .black-tea .black-tea-content .product-label .menu-dash {
-  height: 15px;
-  border-bottom: 1px dashed #c7c7c7;
-}
-
-.menu-page .black-tea .black-tea-content .product-desc-area .product-desc {
-  color: grey;
-}
-
-.menu-page .black-tea .black-tea-label-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.menu-page .black-tea .black-tea-label-area .black-tea-label {
-  -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
-  text-orientation: mixed;
-  font-size: 100px;
-  color: #f5efdc;
-}
-
-.menu-page .green-tea {
-  margin-top: 80px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.menu-page .green-tea .green-tea-image-area {
-  position: relative;
-}
-
-.menu-page .green-tea .green-tea-image-area .menu-image {
-  border-radius: 276px;
-  margin-top: 15px;
-  height: 700px;
-  width: 100%;
-}
-
-.menu-page .green-tea .green-tea-image-area .green-tea-image-frame {
-  height: 700px;
-  width: 96%;
-  border: 1px solid grey;
-  border-radius: 276px;
-  position: absolute;
-  top: 0%;
-  left: 0%;
-}
-
-.menu-page .green-tea .green-tea-content .product-label {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto 1fr auto;
-      grid-template-columns: auto 1fr auto;
-}
-
-.menu-page .green-tea .green-tea-content .product-label .product-name {
-  font-size: 17px;
-  color: #E66445;
-}
-
-.menu-page .green-tea .green-tea-content .product-label .product-price {
-  font-size: 17px;
-  color: #E66445;
-}
-
-.menu-page .green-tea .green-tea-content .product-label .menu-dash {
-  height: 15px;
-  border-bottom: 1px dashed #c7c7c7;
-}
-
-.menu-page .green-tea .green-tea-content .product-desc-area .product-desc {
-  color: grey;
-}
-
-.menu-page .green-tea .green-tea-label-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0;
-}
-
-.menu-page .green-tea .green-tea-label-area .green-tea-label {
-  -webkit-writing-mode: vertical-lr;
-      -ms-writing-mode: tb-lr;
-          writing-mode: vertical-lr;
-  font-size: 100px;
-  color: #f5efdc;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-
-.menu-page .herbal-tea {
-  margin-top: 80px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.menu-page .herbal-tea .herbal-tea-image-area {
-  position: relative;
-}
-
-.menu-page .herbal-tea .herbal-tea-image-area .menu-image {
-  border-radius: 276px;
-  margin-top: 35px;
-  height: 700px;
-  width: 100%;
-}
-
-.menu-page .herbal-tea .herbal-tea-image-area .herbal-tea-image-frame {
-  height: 700px;
-  width: 96%;
-  border: 1px solid grey;
-  border-radius: 276px;
-  position: absolute;
-  top: 3%;
-  left: 4%;
-}
-
-.menu-page .herbal-tea .herbal-tea-content .product-label {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto 1fr auto;
-      grid-template-columns: auto 1fr auto;
-}
-
-.menu-page .herbal-tea .herbal-tea-content .product-label .product-name {
-  font-size: 17px;
-  color: #E66445;
-}
-
-.menu-page .herbal-tea .herbal-tea-content .product-label .product-price {
-  font-size: 17px;
-  color: #E66445;
-}
-
-.menu-page .herbal-tea .herbal-tea-content .product-label .menu-dash {
-  height: 15px;
-  border-bottom: 1px dashed #c7c7c7;
-}
-
-.menu-page .herbal-tea .herbal-tea-content .product-desc-area .product-desc {
-  color: grey;
-}
-
-.menu-page .herbal-tea .herbal-tea-label-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.menu-page .herbal-tea .herbal-tea-label-area .herbal-tea-label {
-  -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
-  text-orientation: mixed;
-  font-size: 100px;
-  color: #f5efdc;
-}
-
-.menu-page .fruit-tea {
-  margin-top: 80px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.menu-page .fruit-tea .fruit-tea-image-area {
-  position: relative;
-}
-
-.menu-page .fruit-tea .fruit-tea-image-area .menu-image {
-  border-radius: 246px;
-  margin-top: 50px;
-  margin-left: 15px;
-  height: 750px;
-  width: 100%;
-}
-
-.menu-page .fruit-tea .fruit-tea-image-area .fruit-tea-image-frame {
-  height: 750px;
-  width: 96%;
-  border: 1px solid grey;
-  border-radius: 276px;
-  position: absolute;
-  top: 4%;
-  left: 3%;
-}
-
-.menu-page .fruit-tea .fruit-tea-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.menu-page .fruit-tea .fruit-tea-content .product-label {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto 1fr auto;
-      grid-template-columns: auto 1fr auto;
-}
-
-.menu-page .fruit-tea .fruit-tea-content .product-label .product-name {
-  font-size: 17px;
-  color: #E66445;
-}
-
-.menu-page .fruit-tea .fruit-tea-content .product-label .product-price {
-  font-size: 17px;
-  color: #E66445;
-}
-
-.menu-page .fruit-tea .fruit-tea-content .product-label .menu-dash {
-  height: 15px;
-  border-bottom: 1px dashed #c7c7c7;
-}
-
-.menu-page .fruit-tea .fruit-tea-content .product-desc-area .product-desc {
-  color: grey;
-}
-
-.menu-page .fruit-tea .fruit-tea-label-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0;
-}
-
-.menu-page .fruit-tea .fruit-tea-label-area .fruit-tea-label {
-  -webkit-writing-mode: vertical-lr;
-      -ms-writing-mode: tb-lr;
-          writing-mode: vertical-lr;
-  font-size: 100px;
-  color: #f5efdc;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-
-.menu-page .breakfast {
-  margin-top: 80px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.menu-page .breakfast .breakfast-image-area {
-  position: relative;
-}
-
-.menu-page .breakfast .breakfast-image-area .menu-image {
-  border-radius: 276px;
-  height: 700px;
-  width: 100%;
-}
-
-.menu-page .breakfast .breakfast-image-area .breakfast-image-frame {
-  height: 700px;
-  width: 96%;
-  border: 1px solid grey;
-  border-radius: 276px;
-  position: absolute;
-  top: 0%;
-  left: 4%;
-}
-
-.menu-page .breakfast .breakfast-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding: 50px 10px;
-}
-
-.menu-page .breakfast .breakfast-content .product-label {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto 1fr auto;
-      grid-template-columns: auto 1fr auto;
-}
-
-.menu-page .breakfast .breakfast-content .product-label .product-name {
-  font-size: 17px;
-  color: #E66445;
-}
-
-.menu-page .breakfast .breakfast-content .product-label .product-price {
-  font-size: 17px;
-  color: #E66445;
-}
-
-.menu-page .breakfast .breakfast-content .product-label .menu-dash {
-  height: 15px;
-  border-bottom: 1px dashed #c7c7c7;
-}
-
-.menu-page .breakfast .breakfast-content .product-desc-area .product-desc {
-  color: grey;
-}
-
-.menu-page .breakfast .breakfast-label-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.menu-page .breakfast .breakfast-label-area .breakfast-label {
-  -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
-  text-orientation: mixed;
-  font-size: 100px;
-  color: #f5efdc;
-}
-
-.menu-page .breakfast .menu-desc-area .menu-desc {
-  border: 1px solid #E66445;
-  padding: 5px;
-  border-radius: 3px;
-}
-
-.menu-page .salads {
-  margin-top: 80px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.menu-page .salads .salads-image-area {
-  position: relative;
-}
-
-.menu-page .salads .salads-image-area .menu-image {
-  border-radius: 276px;
-  margin-top: 15px;
-  height: 700px;
-  width: 100%;
-}
-
-.menu-page .salads .salads-image-area .salads-image-frame {
-  height: 700px;
-  width: 96%;
-  border: 1px solid grey;
-  border-radius: 276px;
-  position: absolute;
-  top: 0%;
-  left: 0%;
-}
-
-.menu-page .salads .salads-content .product-label {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto 1fr auto;
-      grid-template-columns: auto 1fr auto;
-}
-
-.menu-page .salads .salads-content .product-label .product-name {
-  font-size: 17px;
-  color: #E66445;
-}
-
-.menu-page .salads .salads-content .product-label .product-price {
-  font-size: 17px;
-  color: #E66445;
-}
-
-.menu-page .salads .salads-content .product-label .menu-dash {
-  height: 15px;
-  border-bottom: 1px dashed #c7c7c7;
-}
-
-.menu-page .salads .salads-content .product-desc-area .product-desc {
-  color: grey;
-}
-
-.menu-page .salads .salads-label-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0;
-}
-
-.menu-page .salads .salads-label-area .salads-label {
-  -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
-  text-orientation: mixed;
-  font-size: 100px;
-  color: #f5efdc;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-
-.menu-page .sandwich {
-  margin-top: 80px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.menu-page .sandwich .sandwich-image-area {
-  position: relative;
-}
-
-.menu-page .sandwich .sandwich-image-area .menu-image {
-  border-radius: 276px;
-  height: 700px;
-  width: 100%;
-}
-
-.menu-page .sandwich .sandwich-image-area .sandwich-image-frame {
-  height: 710px;
-  width: 96%;
-  border: 1px solid grey;
-  border-radius: 276px;
-  position: absolute;
-  top: 0%;
-  left: 4%;
-}
-
-.menu-page .sandwich .sandwich-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding: 50px 10px;
-}
-
-.menu-page .sandwich .sandwich-content .product-label {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto 1fr auto;
-      grid-template-columns: auto 1fr auto;
-}
-
-.menu-page .sandwich .sandwich-content .product-label .product-name {
-  font-size: 17px;
-  color: #E66445;
-}
-
-.menu-page .sandwich .sandwich-content .product-label .product-price {
-  font-size: 17px;
-  color: #E66445;
-}
-
-.menu-page .sandwich .sandwich-content .product-label .menu-dash {
-  height: 15px;
-  border-bottom: 1px dashed #c7c7c7;
-}
-
-.menu-page .sandwich .sandwich-content .product-desc-area .product-desc {
-  color: grey;
-}
-
-.menu-page .sandwich .sandwich-content .menu-desc-area .menu-desc {
-  border: 1px solid #E66445;
-  padding: 5px;
-  border-radius: 3px;
-}
-
-.menu-page .sandwich .sandwich-label-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.menu-page .sandwich .sandwich-label-area .sandwich-label {
-  -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
-  text-orientation: mixed;
-  font-size: 100px;
-  color: #f5efdc;
-}
-
-.menu-page .main-dishes {
-  margin-top: 80px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.menu-page .main-dishes .main-dishes-image-area {
-  position: relative;
-}
-
-.menu-page .main-dishes .main-dishes-image-area .menu-image {
-  border-radius: 276px;
-  margin-top: 15px;
-  height: 700px;
-  width: 100%;
-}
-
-.menu-page .main-dishes .main-dishes-image-area .main-dishes-image-frame {
-  height: 700px;
-  width: 96%;
-  border: 1px solid grey;
-  border-radius: 276px;
-  position: absolute;
-  top: 0%;
-  left: 0%;
-}
-
-.menu-page .main-dishes .main-dishes-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding: 70px 10px;
-}
-
-.menu-page .main-dishes .main-dishes-content .product-label {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto 1fr auto;
-      grid-template-columns: auto 1fr auto;
-}
-
-.menu-page .main-dishes .main-dishes-content .product-label .product-name {
-  font-size: 17px;
-  color: #E66445;
-}
-
-.menu-page .main-dishes .main-dishes-content .product-label .product-price {
-  font-size: 17px;
-  color: #E66445;
-}
-
-.menu-page .main-dishes .main-dishes-content .product-label .menu-dash {
-  height: 15px;
-  border-bottom: 1px dashed #c7c7c7;
-}
-
-.menu-page .main-dishes .main-dishes-content .product-desc-area .product-desc {
-  color: grey;
-}
-
-.menu-page .main-dishes .main-dishes-label-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0;
-}
-
-.menu-page .main-dishes .main-dishes-label-area .main-dishes-label {
-  -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
-  text-orientation: mixed;
-  font-size: 100px;
-  color: #f5efdc;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-
-.menu-page .appetizers {
-  margin-top: 80px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.menu-page .appetizers .appetizer-image-area {
-  position: relative;
-}
-
-.menu-page .appetizers .appetizer-image-area .menu-image {
-  border-radius: 276px;
-  height: 700px;
-  width: 100%;
-}
-
-.menu-page .appetizers .appetizer-image-area .appetizer-image-frame {
-  height: 710px;
-  width: 96%;
-  border: 1px solid grey;
-  border-radius: 276px;
-  position: absolute;
-  top: 0%;
-  left: 4%;
-}
-
-.menu-page .appetizers .appetizers-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding: 50px 10px;
-}
-
-.menu-page .appetizers .appetizers-content .product-label {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto 1fr auto;
-      grid-template-columns: auto 1fr auto;
-}
-
-.menu-page .appetizers .appetizers-content .product-label .product-name {
-  font-size: 17px;
-  color: #E66445;
-}
-
-.menu-page .appetizers .appetizers-content .product-label .product-price {
-  font-size: 17px;
-  color: #E66445;
-}
-
-.menu-page .appetizers .appetizers-content .product-label .menu-dash {
-  height: 15px;
-  border-bottom: 1px dashed #c7c7c7;
-}
-
-.menu-page .appetizers .appetizers-content .product-desc-area .product-desc {
-  color: grey;
-}
-
-.menu-page .appetizers .appetizers-content .menu-desc-area .menu-desc {
-  border: 1px solid #E66445;
-  padding: 5px;
-  border-radius: 3px;
-}
-
-.menu-page .appetizers .appetizers-label-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.menu-page .appetizers .appetizers-label-area .appetizers-label {
-  -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
-  text-orientation: mixed;
-  font-size: 100px;
-  color: #f5efdc;
-}
-
-.menu-page .bruschetta-area {
-  position: relative;
-}
-
-.menu-page .bruschetta-area .bruschetta {
-  width: 100%;
-  margin-top: 150px;
-  padding-bottom: 50px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-          box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-}
-
-.menu-page .bruschetta-area .bruschetta .bruschetta-label {
-  position: absolute;
-  top: 22%;
-  left: 43.5%;
-  font-size: 50px;
-  font-family: 'Allura', cursive;
-  z-index: 2;
-  background-color: white;
-}
-
-.menu-page .bruschetta-area .bruschetta .bruschetta-types {
-  margin-top: 60px;
-}
-
-.menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-types-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-title {
-  text-align: center;
-  font-size: 25px;
-  color: #E66445;
-}
-
-.menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-product-area {
-  border-right: 1px solid #E66445;
-}
-
-.menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-products {
-  list-style: none;
-  text-align: center;
-  font-family: 'Ubuntu', sans-serif;
-}
-
-.menu-page .bruschetta-area .bruschetta .bruschetta-types .menu-decorator {
-  width: 40px;
-  height: 10px;
-  margin: 18px;
-}
-
-.menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-price {
-  text-align: center;
-  color: grey;
-}
-
-.menu-page .wine-card .active {
-  color: #E66445;
-}
-
-.menu-page .wine-card .wine-card-buttons {
-  margin-top: 60px;
-  font-family: 'Ubuntu', sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.menu-page .wine-card .wine-card-buttons .wine-card-button {
-  font-size: 25px;
-  border: none;
-  background-color: transparent;
-  position: relative;
-}
-
-.menu-page .wine-card .wine-card-buttons .wine-card-button:after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #E66445;
-  -webkit-transform-origin: bottom right;
-          transform-origin: bottom right;
-  -webkit-transition: -webkit-transform 0.4s ease-out;
-  transition: -webkit-transform 0.4s ease-out;
-  transition: transform 0.4s ease-out;
-  transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
-}
-
-.menu-page .wine-card .wine-card-buttons .wine-card-button:hover {
-  color: #E66445;
-}
-
-.menu-page .wine-card .wine-card-buttons .wine-card-button:hover:after {
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
-  -webkit-transform-origin: bottom left;
-          transform-origin: bottom left;
-}
-
-.menu-page .wine-card .wine-card-buttons .wine-card-center-button {
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
-.menu-page .wine-card .wine-card-buttons .wine-card-decorator-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.menu-page .wine-card .wine-card-buttons .wine-card-decorator-area .wine-card-decorator {
-  height: 13px;
-  width: 60px;
-}
-
-.menu-page .wine-card .wine-card-buttons .wine-card-decorator-area .wine-card-decorator-right {
-  margin-left: 13px;
-}
-
-.menu-page .wine-card .wine-card-content .product-label {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto 1fr auto;
-      grid-template-columns: auto 1fr auto;
-}
-
-.menu-page .wine-card .wine-card-content .product-label .product-name {
-  font-size: 17px;
-  color: #E66445;
-}
-
-.menu-page .wine-card .wine-card-content .product-label .product-price {
-  font-size: 17px;
-  color: #E66445;
-}
-
-.menu-page .wine-card .wine-card-content .product-label .menu-dash {
-  height: 11px;
-  border-bottom: 1px dashed #c7c7c7;
-}
-
-.menu-page .wine-card .wine-card-content .product-desc-area .product-desc {
-  color: grey;
-  font-size: 14px;
-}
-
-.menu-page .wine-card .wine-card-label-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.menu-page .wine-card .wine-card-label-area .wine-card-label {
-  text-align: center;
-  margin-top: 80px;
-  font-family: 'Allura', cursive;
-  font-size: 50px;
-  border-top: 2px solid #E66445;
-  border-bottom: 2px solid #E66445;
-  padding: 0;
-}
-
-.menu-page .wine-card .wine-label-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.menu-page .wine-card .wine-label-area .wine-label {
-  font-size: 35px;
-  font-family: 'Allura', cursive;
-  border-bottom: 2px solid #E66445;
-}
-
-.menu-page .wine-card .white-ss-wines {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.menu-page .wine-card .desert-wines {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+@media screen and (min-width: 1536px) {
+  .menu-page .menu-page-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 100px;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 4px;
+  }
+  .menu-page .menu-page-header .menu-decorator {
+    width: 70px;
+    height: 10px;
+    margin: 20px;
+  }
+  .menu-page .menu-page-header .menu-decorator-right {
+    margin-left: 12px;
+  }
+  .menu-page .black-tea {
+    margin-top: 80px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .black-tea .black-tea-image-area {
+    position: relative;
+  }
+  .menu-page .black-tea .black-tea-image-area .menu-image {
+    border-radius: 276px;
+    margin-top: 15px;
+    height: 750px;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .menu-page .black-tea .black-tea-image-area .black-tea-image-frame {
+    height: 750px;
+    width: 96%;
+    border: 1px solid grey;
+    border-radius: 276px;
+    position: absolute;
+    top: 4%;
+    left: 3%;
+  }
+  .menu-page .black-tea .black-tea-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .black-tea .black-tea-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .black-tea .black-tea-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .black-tea .black-tea-content .product-label .menu-dash {
+    height: 15px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .black-tea .black-tea-content .product-desc-area .product-desc {
+    color: grey;
+  }
+  .menu-page .black-tea .black-tea-label-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menu-page .black-tea .black-tea-label-area .black-tea-label {
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 100px;
+    color: #f5efdc;
+  }
+  .menu-page .green-tea {
+    margin-top: 80px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .green-tea .green-tea-image-area {
+    position: relative;
+  }
+  .menu-page .green-tea .green-tea-image-area .menu-image {
+    border-radius: 276px;
+    margin-top: 15px;
+    height: 700px;
+    width: 100%;
+  }
+  .menu-page .green-tea .green-tea-image-area .green-tea-image-frame {
+    height: 700px;
+    width: 96%;
+    border: 1px solid grey;
+    border-radius: 276px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  }
+  .menu-page .green-tea .green-tea-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .green-tea .green-tea-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .green-tea .green-tea-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .green-tea .green-tea-content .product-label .menu-dash {
+    height: 15px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .green-tea .green-tea-content .product-desc-area .product-desc {
+    color: grey;
+  }
+  .menu-page .green-tea .green-tea-label-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+  }
+  .menu-page .green-tea .green-tea-label-area .green-tea-label {
+    -webkit-writing-mode: vertical-lr;
+        -ms-writing-mode: tb-lr;
+            writing-mode: vertical-lr;
+    font-size: 100px;
+    color: #f5efdc;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  .menu-page .herbal-tea {
+    margin-top: 80px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .herbal-tea .herbal-tea-image-area {
+    position: relative;
+  }
+  .menu-page .herbal-tea .herbal-tea-image-area .menu-image {
+    border-radius: 276px;
+    margin-top: 35px;
+    height: 700px;
+    width: 100%;
+  }
+  .menu-page .herbal-tea .herbal-tea-image-area .herbal-tea-image-frame {
+    height: 700px;
+    width: 96%;
+    border: 1px solid grey;
+    border-radius: 276px;
+    position: absolute;
+    top: 3%;
+    left: 4%;
+  }
+  .menu-page .herbal-tea .herbal-tea-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .herbal-tea .herbal-tea-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .herbal-tea .herbal-tea-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .herbal-tea .herbal-tea-content .product-label .menu-dash {
+    height: 15px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .herbal-tea .herbal-tea-content .product-desc-area .product-desc {
+    color: grey;
+  }
+  .menu-page .herbal-tea .herbal-tea-label-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menu-page .herbal-tea .herbal-tea-label-area .herbal-tea-label {
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 100px;
+    color: #f5efdc;
+  }
+  .menu-page .fruit-tea {
+    margin-top: 80px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .fruit-tea .fruit-tea-image-area {
+    position: relative;
+  }
+  .menu-page .fruit-tea .fruit-tea-image-area .menu-image {
+    border-radius: 246px;
+    margin-top: 50px;
+    margin-left: 15px;
+    height: 750px;
+    width: 100%;
+  }
+  .menu-page .fruit-tea .fruit-tea-image-area .fruit-tea-image-frame {
+    height: 750px;
+    width: 96%;
+    border: 1px solid grey;
+    border-radius: 276px;
+    position: absolute;
+    top: 4%;
+    left: 3%;
+  }
+  .menu-page .fruit-tea .fruit-tea-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .menu-page .fruit-tea .fruit-tea-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .fruit-tea .fruit-tea-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .fruit-tea .fruit-tea-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .fruit-tea .fruit-tea-content .product-label .menu-dash {
+    height: 15px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .fruit-tea .fruit-tea-content .product-desc-area .product-desc {
+    color: grey;
+  }
+  .menu-page .fruit-tea .fruit-tea-label-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+  }
+  .menu-page .fruit-tea .fruit-tea-label-area .fruit-tea-label {
+    -webkit-writing-mode: vertical-lr;
+        -ms-writing-mode: tb-lr;
+            writing-mode: vertical-lr;
+    font-size: 100px;
+    color: #f5efdc;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  .menu-page .breakfast {
+    margin-top: 80px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .breakfast .breakfast-image-area {
+    position: relative;
+  }
+  .menu-page .breakfast .breakfast-image-area .menu-image {
+    border-radius: 276px;
+    height: 700px;
+    width: 100%;
+  }
+  .menu-page .breakfast .breakfast-image-area .breakfast-image-frame {
+    height: 700px;
+    width: 96%;
+    border: 1px solid grey;
+    border-radius: 276px;
+    position: absolute;
+    top: 0%;
+    left: 4%;
+  }
+  .menu-page .breakfast .breakfast-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 50px 10px;
+  }
+  .menu-page .breakfast .breakfast-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .breakfast .breakfast-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .breakfast .breakfast-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .breakfast .breakfast-content .product-label .menu-dash {
+    height: 15px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .breakfast .breakfast-content .product-desc-area .product-desc {
+    color: grey;
+  }
+  .menu-page .breakfast .breakfast-label-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menu-page .breakfast .breakfast-label-area .breakfast-label {
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 100px;
+    color: #f5efdc;
+  }
+  .menu-page .breakfast .menu-desc-area .menu-desc {
+    border: 1px solid #E66445;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  .menu-page .salads {
+    margin-top: 80px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .salads .salads-image-area {
+    position: relative;
+  }
+  .menu-page .salads .salads-image-area .menu-image {
+    border-radius: 276px;
+    margin-top: 15px;
+    height: 700px;
+    width: 100%;
+  }
+  .menu-page .salads .salads-image-area .salads-image-frame {
+    height: 700px;
+    width: 96%;
+    border: 1px solid grey;
+    border-radius: 276px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  }
+  .menu-page .salads .salads-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .salads .salads-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .salads .salads-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .salads .salads-content .product-label .menu-dash {
+    height: 15px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .salads .salads-content .product-desc-area .product-desc {
+    color: grey;
+  }
+  .menu-page .salads .salads-label-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+  }
+  .menu-page .salads .salads-label-area .salads-label {
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 100px;
+    color: #f5efdc;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  .menu-page .sandwich {
+    margin-top: 80px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .sandwich .sandwich-image-area {
+    position: relative;
+  }
+  .menu-page .sandwich .sandwich-image-area .menu-image {
+    border-radius: 276px;
+    height: 700px;
+    width: 100%;
+  }
+  .menu-page .sandwich .sandwich-image-area .sandwich-image-frame {
+    height: 710px;
+    width: 96%;
+    border: 1px solid grey;
+    border-radius: 276px;
+    position: absolute;
+    top: 0%;
+    left: 4%;
+  }
+  .menu-page .sandwich .sandwich-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 50px 10px;
+  }
+  .menu-page .sandwich .sandwich-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .sandwich .sandwich-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .sandwich .sandwich-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .sandwich .sandwich-content .product-label .menu-dash {
+    height: 15px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .sandwich .sandwich-content .product-desc-area .product-desc {
+    color: grey;
+  }
+  .menu-page .sandwich .sandwich-content .menu-desc-area .menu-desc {
+    border: 1px solid #E66445;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  .menu-page .sandwich .sandwich-label-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menu-page .sandwich .sandwich-label-area .sandwich-label {
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 100px;
+    color: #f5efdc;
+  }
+  .menu-page .main-dishes {
+    margin-top: 80px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .main-dishes .main-dishes-image-area {
+    position: relative;
+  }
+  .menu-page .main-dishes .main-dishes-image-area .menu-image {
+    border-radius: 276px;
+    margin-top: 15px;
+    height: 700px;
+    width: 100%;
+  }
+  .menu-page .main-dishes .main-dishes-image-area .main-dishes-image-frame {
+    height: 700px;
+    width: 96%;
+    border: 1px solid grey;
+    border-radius: 276px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  }
+  .menu-page .main-dishes .main-dishes-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 70px 10px;
+  }
+  .menu-page .main-dishes .main-dishes-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .main-dishes .main-dishes-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .main-dishes .main-dishes-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .main-dishes .main-dishes-content .product-label .menu-dash {
+    height: 15px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .main-dishes .main-dishes-content .product-desc-area .product-desc {
+    color: grey;
+  }
+  .menu-page .main-dishes .main-dishes-label-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+  }
+  .menu-page .main-dishes .main-dishes-label-area .main-dishes-label {
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 100px;
+    color: #f5efdc;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  .menu-page .appetizers {
+    margin-top: 80px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .appetizers .appetizer-image-area {
+    position: relative;
+  }
+  .menu-page .appetizers .appetizer-image-area .menu-image {
+    border-radius: 276px;
+    height: 700px;
+    width: 100%;
+  }
+  .menu-page .appetizers .appetizer-image-area .appetizer-image-frame {
+    height: 710px;
+    width: 96%;
+    border: 1px solid grey;
+    border-radius: 276px;
+    position: absolute;
+    top: 0%;
+    left: 4%;
+  }
+  .menu-page .appetizers .appetizers-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 50px 10px;
+  }
+  .menu-page .appetizers .appetizers-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .appetizers .appetizers-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .appetizers .appetizers-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .appetizers .appetizers-content .product-label .menu-dash {
+    height: 15px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .appetizers .appetizers-content .product-desc-area .product-desc {
+    color: grey;
+  }
+  .menu-page .appetizers .appetizers-content .menu-desc-area .menu-desc {
+    border: 1px solid #E66445;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  .menu-page .appetizers .appetizers-label-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menu-page .appetizers .appetizers-label-area .appetizers-label {
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 100px;
+    color: #f5efdc;
+  }
+  .menu-page .bruschetta-area {
+    position: relative;
+  }
+  .menu-page .bruschetta-area .bruschetta {
+    width: 100%;
+    margin-top: 150px;
+    padding-bottom: 50px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+            box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-label {
+    position: absolute;
+    top: 22%;
+    left: 43.5%;
+    font-size: 50px;
+    font-family: 'Allura', cursive;
+    z-index: 2;
+    background-color: white;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-types {
+    margin-top: 60px;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-types-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-title {
+    text-align: center;
+    font-size: 25px;
+    color: #E66445;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-product-area {
+    border-right: 1px solid #E66445;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-products {
+    list-style: none;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-types .menu-decorator {
+    width: 40px;
+    height: 10px;
+    margin: 18px;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-price {
+    text-align: center;
+    color: grey;
+  }
+  .menu-page .wine-card .active {
+    color: #E66445;
+  }
+  .menu-page .wine-card .wine-card-buttons {
+    margin-top: 60px;
+    font-family: 'Ubuntu', sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-button {
+    font-size: 25px;
+    border: none;
+    background-color: transparent;
+    position: relative;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-button:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #E66445;
+    -webkit-transform-origin: bottom right;
+            transform-origin: bottom right;
+    -webkit-transition: -webkit-transform 0.4s ease-out;
+    transition: -webkit-transform 0.4s ease-out;
+    transition: transform 0.4s ease-out;
+    transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-button:hover {
+    color: #E66445;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-button:hover:after {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: bottom left;
+            transform-origin: bottom left;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-center-button {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-decorator-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-decorator-area .wine-card-decorator {
+    height: 13px;
+    width: 60px;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-decorator-area .wine-card-decorator-right {
+    margin-left: 13px;
+  }
+  .menu-page .wine-card .wine-card-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .wine-card .wine-card-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .wine-card .wine-card-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .wine-card .wine-card-content .product-label .menu-dash {
+    height: 11px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .wine-card .wine-card-content .product-desc-area .product-desc {
+    color: grey;
+    font-size: 14px;
+  }
+  .menu-page .wine-card .wine-card-label-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .menu-page .wine-card .wine-card-label-area .wine-card-label {
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Allura', cursive;
+    font-size: 50px;
+    border-top: 2px solid #E66445;
+    border-bottom: 2px solid #E66445;
+    padding: 0;
+  }
+  .menu-page .wine-card .wine-label-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .menu-page .wine-card .wine-label-area .wine-label {
+    font-size: 35px;
+    font-family: 'Allura', cursive;
+    border-bottom: 2px solid #E66445;
+  }
+  .menu-page .wine-card .white-ss-wines {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .menu-page .wine-card .desert-wines {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1536px) {
+  .device-computer {
+    display: block;
+  }
+  .device-mobile {
+    display: none;
+  }
+  .menu-page .menu-page-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 100px;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 4px;
+  }
+  .menu-page .menu-page-header .menu-decorator {
+    width: 70px;
+    height: 10px;
+    margin: 20px;
+  }
+  .menu-page .menu-page-header .menu-decorator-right {
+    margin-left: 12px;
+  }
+  .menu-page .black-tea {
+    margin-top: 80px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .black-tea .black-tea-image-area {
+    position: relative;
+  }
+  .menu-page .black-tea .black-tea-image-area .menu-image {
+    border-radius: 276px;
+    margin-top: 15px;
+    height: 750px;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .menu-page .black-tea .black-tea-image-area .black-tea-image-frame {
+    height: 750px;
+    width: 96%;
+    border: 1px solid grey;
+    border-radius: 276px;
+    position: absolute;
+    top: 4%;
+    left: 3%;
+  }
+  .menu-page .black-tea .black-tea-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .black-tea .black-tea-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .black-tea .black-tea-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .black-tea .black-tea-content .product-label .menu-dash {
+    height: 15px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .black-tea .black-tea-content .product-desc-area .product-desc {
+    color: grey;
+  }
+  .menu-page .black-tea .black-tea-label-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menu-page .black-tea .black-tea-label-area .black-tea-label {
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 100px;
+    color: #f5efdc;
+  }
+  .menu-page .green-tea {
+    margin-top: 80px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .green-tea .green-tea-image-area {
+    position: relative;
+  }
+  .menu-page .green-tea .green-tea-image-area .menu-image {
+    border-radius: 276px;
+    margin-top: 15px;
+    height: 700px;
+    width: 100%;
+  }
+  .menu-page .green-tea .green-tea-image-area .green-tea-image-frame {
+    height: 700px;
+    width: 96%;
+    border: 1px solid grey;
+    border-radius: 276px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  }
+  .menu-page .green-tea .green-tea-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .green-tea .green-tea-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .green-tea .green-tea-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .green-tea .green-tea-content .product-label .menu-dash {
+    height: 15px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .green-tea .green-tea-content .product-desc-area .product-desc {
+    color: grey;
+  }
+  .menu-page .green-tea .green-tea-label-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+  }
+  .menu-page .green-tea .green-tea-label-area .green-tea-label {
+    -webkit-writing-mode: vertical-lr;
+        -ms-writing-mode: tb-lr;
+            writing-mode: vertical-lr;
+    font-size: 100px;
+    color: #f5efdc;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  .menu-page .herbal-tea {
+    margin-top: 80px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .herbal-tea .herbal-tea-image-area {
+    position: relative;
+  }
+  .menu-page .herbal-tea .herbal-tea-image-area .menu-image {
+    border-radius: 276px;
+    margin-top: 35px;
+    height: 700px;
+    width: 100%;
+  }
+  .menu-page .herbal-tea .herbal-tea-image-area .herbal-tea-image-frame {
+    height: 700px;
+    width: 96%;
+    border: 1px solid grey;
+    border-radius: 276px;
+    position: absolute;
+    top: 3%;
+    left: 4%;
+  }
+  .menu-page .herbal-tea .herbal-tea-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .herbal-tea .herbal-tea-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .herbal-tea .herbal-tea-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .herbal-tea .herbal-tea-content .product-label .menu-dash {
+    height: 15px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .herbal-tea .herbal-tea-content .product-desc-area .product-desc {
+    color: grey;
+  }
+  .menu-page .herbal-tea .herbal-tea-label-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menu-page .herbal-tea .herbal-tea-label-area .herbal-tea-label {
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 100px;
+    color: #f5efdc;
+  }
+  .menu-page .fruit-tea {
+    margin-top: 80px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .fruit-tea .fruit-tea-image-area {
+    position: relative;
+  }
+  .menu-page .fruit-tea .fruit-tea-image-area .menu-image {
+    border-radius: 246px;
+    margin-top: 50px;
+    margin-left: 15px;
+    height: 750px;
+    width: 100%;
+  }
+  .menu-page .fruit-tea .fruit-tea-image-area .fruit-tea-image-frame {
+    height: 750px;
+    width: 96%;
+    border: 1px solid grey;
+    border-radius: 276px;
+    position: absolute;
+    top: 4%;
+    left: 3%;
+  }
+  .menu-page .fruit-tea .fruit-tea-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .menu-page .fruit-tea .fruit-tea-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .fruit-tea .fruit-tea-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .fruit-tea .fruit-tea-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .fruit-tea .fruit-tea-content .product-label .menu-dash {
+    height: 15px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .fruit-tea .fruit-tea-content .product-desc-area .product-desc {
+    color: grey;
+  }
+  .menu-page .fruit-tea .fruit-tea-label-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+  }
+  .menu-page .fruit-tea .fruit-tea-label-area .fruit-tea-label {
+    -webkit-writing-mode: vertical-lr;
+        -ms-writing-mode: tb-lr;
+            writing-mode: vertical-lr;
+    font-size: 100px;
+    color: #f5efdc;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  .menu-page .breakfast {
+    margin-top: 80px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .breakfast .breakfast-image-area {
+    position: relative;
+  }
+  .menu-page .breakfast .breakfast-image-area .menu-image {
+    border-radius: 276px;
+    height: 700px;
+    width: 100%;
+  }
+  .menu-page .breakfast .breakfast-image-area .breakfast-image-frame {
+    height: 700px;
+    width: 96%;
+    border: 1px solid grey;
+    border-radius: 276px;
+    position: absolute;
+    top: 0%;
+    left: 4%;
+  }
+  .menu-page .breakfast .breakfast-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 50px 10px;
+  }
+  .menu-page .breakfast .breakfast-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .breakfast .breakfast-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .breakfast .breakfast-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .breakfast .breakfast-content .product-label .menu-dash {
+    height: 15px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .breakfast .breakfast-content .product-desc-area .product-desc {
+    color: grey;
+  }
+  .menu-page .breakfast .breakfast-label-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menu-page .breakfast .breakfast-label-area .breakfast-label {
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 100px;
+    color: #f5efdc;
+  }
+  .menu-page .breakfast .menu-desc-area .menu-desc {
+    border: 1px solid #E66445;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  .menu-page .salads {
+    margin-top: 80px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .salads .salads-image-area {
+    position: relative;
+  }
+  .menu-page .salads .salads-image-area .menu-image {
+    border-radius: 276px;
+    margin-top: 15px;
+    height: 700px;
+    width: 100%;
+  }
+  .menu-page .salads .salads-image-area .salads-image-frame {
+    height: 700px;
+    width: 96%;
+    border: 1px solid grey;
+    border-radius: 276px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  }
+  .menu-page .salads .salads-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .salads .salads-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .salads .salads-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .salads .salads-content .product-label .menu-dash {
+    height: 15px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .salads .salads-content .product-desc-area .product-desc {
+    color: grey;
+  }
+  .menu-page .salads .salads-label-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+  }
+  .menu-page .salads .salads-label-area .salads-label {
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 100px;
+    color: #f5efdc;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  .menu-page .sandwich {
+    margin-top: 80px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .sandwich .sandwich-image-area {
+    position: relative;
+  }
+  .menu-page .sandwich .sandwich-image-area .menu-image {
+    border-radius: 276px;
+    height: 700px;
+    width: 100%;
+  }
+  .menu-page .sandwich .sandwich-image-area .sandwich-image-frame {
+    height: 710px;
+    width: 96%;
+    border: 1px solid grey;
+    border-radius: 276px;
+    position: absolute;
+    top: 0%;
+    left: 4%;
+  }
+  .menu-page .sandwich .sandwich-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 50px 10px;
+  }
+  .menu-page .sandwich .sandwich-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .sandwich .sandwich-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .sandwich .sandwich-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .sandwich .sandwich-content .product-label .menu-dash {
+    height: 15px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .sandwich .sandwich-content .product-desc-area .product-desc {
+    color: grey;
+  }
+  .menu-page .sandwich .sandwich-content .menu-desc-area .menu-desc {
+    border: 1px solid #E66445;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  .menu-page .sandwich .sandwich-label-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menu-page .sandwich .sandwich-label-area .sandwich-label {
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 100px;
+    color: #f5efdc;
+  }
+  .menu-page .main-dishes {
+    margin-top: 80px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .main-dishes .main-dishes-image-area {
+    position: relative;
+  }
+  .menu-page .main-dishes .main-dishes-image-area .menu-image {
+    border-radius: 276px;
+    margin-top: 15px;
+    height: 700px;
+    width: 100%;
+  }
+  .menu-page .main-dishes .main-dishes-image-area .main-dishes-image-frame {
+    height: 700px;
+    width: 96%;
+    border: 1px solid grey;
+    border-radius: 276px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  }
+  .menu-page .main-dishes .main-dishes-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 70px 10px;
+  }
+  .menu-page .main-dishes .main-dishes-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .main-dishes .main-dishes-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .main-dishes .main-dishes-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .main-dishes .main-dishes-content .product-label .menu-dash {
+    height: 15px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .main-dishes .main-dishes-content .product-desc-area .product-desc {
+    color: grey;
+  }
+  .menu-page .main-dishes .main-dishes-label-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+  }
+  .menu-page .main-dishes .main-dishes-label-area .main-dishes-label {
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 100px;
+    color: #f5efdc;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  .menu-page .appetizers {
+    margin-top: 80px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .appetizers .appetizer-image-area {
+    position: relative;
+  }
+  .menu-page .appetizers .appetizer-image-area .menu-image {
+    border-radius: 276px;
+    height: 700px;
+    width: 100%;
+  }
+  .menu-page .appetizers .appetizer-image-area .appetizer-image-frame {
+    height: 710px;
+    width: 96%;
+    border: 1px solid grey;
+    border-radius: 276px;
+    position: absolute;
+    top: 0%;
+    left: 4%;
+  }
+  .menu-page .appetizers .appetizers-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 50px 10px;
+  }
+  .menu-page .appetizers .appetizers-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .appetizers .appetizers-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .appetizers .appetizers-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .appetizers .appetizers-content .product-label .menu-dash {
+    height: 15px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .appetizers .appetizers-content .product-desc-area .product-desc {
+    color: grey;
+  }
+  .menu-page .appetizers .appetizers-content .menu-desc-area .menu-desc {
+    border: 1px solid #E66445;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  .menu-page .appetizers .appetizers-label-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menu-page .appetizers .appetizers-label-area .appetizers-label {
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 100px;
+    color: #f5efdc;
+  }
+  .menu-page .bruschetta-area {
+    position: relative;
+  }
+  .menu-page .bruschetta-area .bruschetta {
+    width: 100%;
+    margin-top: 150px;
+    padding-bottom: 50px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+            box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-label {
+    position: absolute;
+    top: 22%;
+    left: 43.5%;
+    font-size: 50px;
+    font-family: 'Allura', cursive;
+    z-index: 2;
+    background-color: white;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-types {
+    margin-top: 60px;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-types-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-title {
+    text-align: center;
+    font-size: 25px;
+    color: #E66445;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-product-area {
+    border-right: 1px solid #E66445;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-products {
+    list-style: none;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-types .menu-decorator {
+    width: 40px;
+    height: 10px;
+    margin: 18px;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-price {
+    text-align: center;
+    color: grey;
+  }
+  .menu-page .wine-card .active {
+    color: #E66445;
+  }
+  .menu-page .wine-card .wine-card-buttons {
+    margin-top: 60px;
+    font-family: 'Ubuntu', sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-button {
+    font-size: 25px;
+    border: none;
+    background-color: transparent;
+    position: relative;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-button:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #E66445;
+    -webkit-transform-origin: bottom right;
+            transform-origin: bottom right;
+    -webkit-transition: -webkit-transform 0.4s ease-out;
+    transition: -webkit-transform 0.4s ease-out;
+    transition: transform 0.4s ease-out;
+    transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-button:hover {
+    color: #E66445;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-button:hover:after {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: bottom left;
+            transform-origin: bottom left;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-center-button {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-decorator-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-decorator-area .wine-card-decorator {
+    height: 13px;
+    width: 60px;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-decorator-area .wine-card-decorator-right {
+    margin-left: 13px;
+  }
+  .menu-page .wine-card .wine-card-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .wine-card .wine-card-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .wine-card .wine-card-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .wine-card .wine-card-content .product-label .menu-dash {
+    height: 11px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .wine-card .wine-card-content .product-desc-area .product-desc {
+    color: grey;
+    font-size: 14px;
+  }
+  .menu-page .wine-card .wine-card-label-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .menu-page .wine-card .wine-card-label-area .wine-card-label {
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Allura', cursive;
+    font-size: 50px;
+    border-top: 2px solid #E66445;
+    border-bottom: 2px solid #E66445;
+    padding: 0;
+  }
+  .menu-page .wine-card .wine-label-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .menu-page .wine-card .wine-label-area .wine-label {
+    font-size: 35px;
+    font-family: 'Allura', cursive;
+    border-bottom: 2px solid #E66445;
+  }
+  .menu-page .wine-card .white-ss-wines {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .menu-page .wine-card .desert-wines {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 576px) {
+  .menu-page .menu-page-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 80px;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 4px;
+  }
+  .menu-page .menu-page-header .menu-decorator {
+    width: 50px;
+    height: 10px;
+    margin: 15px;
+  }
+  .menu-page .menu-page-header .menu-decorator-right {
+    margin-top: 15px;
+    margin-left: 6px;
+  }
+  .menu-page .device-computer {
+    display: none;
+  }
+  .menu-page .device-mobile {
+    display: block;
+  }
+  .menu-page .black-tea {
+    margin-top: 60px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .black-tea .black-tea-image-area {
+    position: relative;
+  }
+  .menu-page .black-tea .black-tea-image-area .menu-image {
+    border-radius: 10px;
+    height: 500px;
+    width: 100%;
+  }
+  .menu-page .black-tea .black-tea-content {
+    margin-top: 20px;
+  }
+  .menu-page .black-tea .black-tea-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .black-tea .black-tea-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .black-tea .black-tea-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .black-tea .black-tea-content .product-label .menu-dash {
+    height: 9px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .black-tea .black-tea-content .product-desc-area .product-desc {
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 35px;
+  }
+  .menu-page .black-tea .black-tea-label-area .black-tea-label {
+    text-align: center;
+    font-size: 40px;
+    color: #E66445;
+    font-family: 'Amatic SC', cursive;
+  }
+  .menu-page .green-tea {
+    margin-top: 30px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .green-tea .green-tea-image-area {
+    position: relative;
+  }
+  .menu-page .green-tea .green-tea-image-area .menu-image {
+    border-radius: 10px;
+    height: 500px;
+    width: 100%;
+  }
+  .menu-page .green-tea .green-tea-content {
+    margin-top: 20px;
+  }
+  .menu-page .green-tea .green-tea-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .green-tea .green-tea-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .green-tea .green-tea-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .green-tea .green-tea-content .product-label .menu-dash {
+    height: 9px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .green-tea .green-tea-content .product-desc-area .product-desc {
+    color: grey;
+    font-size: 15px;
+    margin-bottom: 35px;
+  }
+  .menu-page .green-tea .green-tea-label-area .green-tea-label {
+    text-align: center;
+    font-size: 40px;
+    color: #E66445;
+    font-family: 'Amatic SC', cursive;
+  }
+  .menu-page .herbal-tea {
+    margin-top: 30px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .herbal-tea .herbal-tea-image-area {
+    position: relative;
+  }
+  .menu-page .herbal-tea .herbal-tea-image-area .menu-image {
+    border-radius: 10px;
+    height: 500px;
+    width: 100%;
+  }
+  .menu-page .herbal-tea .herbal-tea-content {
+    margin-top: 20px;
+  }
+  .menu-page .herbal-tea .herbal-tea-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .herbal-tea .herbal-tea-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .herbal-tea .herbal-tea-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .herbal-tea .herbal-tea-content .product-label .menu-dash {
+    height: 9px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .herbal-tea .herbal-tea-content .product-desc-area .product-desc {
+    color: grey;
+    font-size: 15px;
+    margin-bottom: 35px;
+  }
+  .menu-page .herbal-tea .herbal-tea-label-area .herbal-tea-label {
+    text-align: center;
+    font-size: 40px;
+    color: #E66445;
+    font-family: 'Amatic SC', cursive;
+  }
+  .menu-page .fruit-tea {
+    margin-top: 30px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .fruit-tea .fruit-tea-image-area {
+    position: relative;
+  }
+  .menu-page .fruit-tea .fruit-tea-image-area .menu-image {
+    border-radius: 10px;
+    height: 500px;
+    width: 100%;
+  }
+  .menu-page .fruit-tea .fruit-tea-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 20px;
+  }
+  .menu-page .fruit-tea .fruit-tea-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .fruit-tea .fruit-tea-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .fruit-tea .fruit-tea-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .fruit-tea .fruit-tea-content .product-label .menu-dash {
+    height: 9px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .fruit-tea .fruit-tea-content .product-desc-area .product-desc {
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 35px;
+  }
+  .menu-page .fruit-tea .fruit-tea-label-area .fruit-tea-label {
+    text-align: center;
+    font-size: 40px;
+    color: #E66445;
+    font-family: 'Amatic SC', cursive;
+  }
+  .menu-page .breakfast {
+    margin-top: 30px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .breakfast .breakfast-image-area {
+    position: relative;
+  }
+  .menu-page .breakfast .breakfast-image-area .menu-image {
+    border-radius: 10px;
+    height: 500px;
+    width: 100%;
+  }
+  .menu-page .breakfast .breakfast-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 20px;
+  }
+  .menu-page .breakfast .breakfast-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+    margin-bottom: 25px;
+  }
+  .menu-page .breakfast .breakfast-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .breakfast .breakfast-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .breakfast .breakfast-content .product-label .menu-dash {
+    height: 9px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .breakfast .breakfast-label-area .breakfast-label {
+    text-align: center;
+    font-size: 40px;
+    color: #E66445;
+    font-family: 'Amatic SC', cursive;
+  }
+  .menu-page .breakfast .menu-desc-area .menu-desc {
+    border: 1px solid #E66445;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 13px;
+  }
+  .menu-page .salads {
+    margin-top: 60px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .salads .salads-image-area {
+    position: relative;
+  }
+  .menu-page .salads .salads-image-area .menu-image {
+    border-radius: 10px;
+    height: 500px;
+    width: 100%;
+  }
+  .menu-page .salads .salads-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 20px;
+  }
+  .menu-page .salads .salads-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .salads .salads-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .salads .salads-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .salads .salads-content .product-label .menu-dash {
+    height: 9px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .salads .salads-content .product-desc-area .product-desc {
+    font-size: 15px;
+    color: grey;
+  }
+  .menu-page .salads .salads-label-area .salads-label {
+    text-align: center;
+    font-size: 40px;
+    color: #E66445;
+    font-family: 'Amatic SC', cursive;
+  }
+  .menu-page .sandwich {
+    margin-top: 30px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .sandwich .sandwich-image-area {
+    position: relative;
+  }
+  .menu-page .sandwich .sandwich-image-area .menu-image {
+    border-radius: 10px;
+    height: 500px;
+    width: 100%;
+  }
+  .menu-page .sandwich .sandwich-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 20px;
+  }
+  .menu-page .sandwich .sandwich-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .sandwich .sandwich-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+    margin: 0;
+  }
+  .menu-page .sandwich .sandwich-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+    margin: 0;
+  }
+  .menu-page .sandwich .sandwich-content .product-label .menu-dash {
+    height: 9px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .sandwich .sandwich-content .product-desc-area .product-desc {
+    font-size: 15px;
+    color: grey;
+  }
+  .menu-page .sandwich .sandwich-content .menu-desc-area .menu-desc {
+    border: 1px solid #E66445;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 13px;
+  }
+  .menu-page .sandwich .sandwich-label-area .sandwich-label {
+    text-align: center;
+    font-size: 40px;
+    color: #E66445;
+    font-family: 'Amatic SC', cursive;
+  }
+  .menu-page .main-dishes {
+    margin-top: 50px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .main-dishes .main-dishes-image-area {
+    position: relative;
+  }
+  .menu-page .main-dishes .main-dishes-image-area .menu-image {
+    border-radius: 10px;
+    height: 500px;
+    width: 100%;
+  }
+  .menu-page .main-dishes .main-dishes-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 20px;
+  }
+  .menu-page .main-dishes .main-dishes-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .main-dishes .main-dishes-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+    margin: 0;
+  }
+  .menu-page .main-dishes .main-dishes-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+    margin: 0;
+  }
+  .menu-page .main-dishes .main-dishes-content .product-label .menu-dash {
+    height: 9px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .main-dishes .main-dishes-content .product-desc-area .product-desc {
+    font-size: 15px;
+    color: grey;
+  }
+  .menu-page .main-dishes .main-dishes-label-area .main-dishes-label {
+    text-align: center;
+    font-size: 40px;
+    color: #E66445;
+    font-family: 'Amatic SC', cursive;
+  }
+  .menu-page .appetizers {
+    margin-top: 30px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .appetizers .appetizer-image-area {
+    position: relative;
+  }
+  .menu-page .appetizers .appetizer-image-area .menu-image {
+    border-radius: 10px;
+    height: 500px;
+    width: 100%;
+  }
+  .menu-page .appetizers .appetizers-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 20px;
+  }
+  .menu-page .appetizers .appetizers-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .appetizers .appetizers-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+    margin: 0;
+  }
+  .menu-page .appetizers .appetizers-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+    margin: 0;
+  }
+  .menu-page .appetizers .appetizers-content .product-label .menu-dash {
+    height: 9px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .appetizers .appetizers-content .product-desc-area .product-desc {
+    font-size: 15px;
+    color: grey;
+  }
+  .menu-page .appetizers .appetizers-content .menu-desc-area .menu-desc {
+    border: 1px solid #E66445;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  .menu-page .appetizers .appetizers-label-area .appetizers-label {
+    text-align: center;
+    font-size: 40px;
+    color: #E66445;
+    font-family: 'Amatic SC', cursive;
+  }
+  .menu-page .bruschetta-area .bruschetta {
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+            box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-label {
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: 'Allura', cursive;
+    z-index: 2;
+    background-color: white;
+    text-align: center;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-types-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-title {
+    text-align: center;
+    font-size: 20px;
+    color: #E66445;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-product-area {
+    margin-bottom: 20px;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-products {
+    list-style: none;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-composition {
+    font-size: 15px;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-types .menu-decorator {
+    width: 40px;
+    height: 10px;
+    margin: 12px;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-price {
+    text-align: center;
+    color: grey;
+    font-size: 14px;
+  }
+  .menu-page .wine-card .active {
+    color: #E66445;
+  }
+  .menu-page .wine-card .wine-card-buttons {
+    margin-top: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding-left: 50px;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-button {
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+    position: relative;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-button:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #E66445;
+    -webkit-transform-origin: bottom right;
+            transform-origin: bottom right;
+    -webkit-transition: -webkit-transform 0.4s ease-out;
+    transition: -webkit-transform 0.4s ease-out;
+    transition: transform 0.4s ease-out;
+    transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-button:hover {
+    color: #E66445;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-button:hover:after {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: bottom left;
+            transform-origin: bottom left;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-center-button {
+    margin-left: 10px;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-decorator-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-decorator-area .wine-card-decorator {
+    height: 13px;
+    width: 60px;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-decorator-area .wine-card-decorator-right {
+    margin-left: 13px;
+  }
+  .menu-page .wine-card .wine-card-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .wine-card .wine-card-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .wine-card .wine-card-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .wine-card .wine-card-content .product-label .menu-dash {
+    height: 11px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .wine-card .wine-card-content .product-desc-area .product-desc {
+    color: grey;
+    font-size: 14px;
+  }
+  .menu-page .wine-card .wine-card-label-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .menu-page .wine-card .wine-card-label-area .wine-card-label {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Allura', cursive;
+    font-size: 40px;
+    border-top: 2px solid #E66445;
+    border-bottom: 2px solid #E66445;
+    padding: 0;
+  }
+  .menu-page .wine-card .wine-label-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .menu-page .wine-card .wine-label-area .wine-label {
+    font-size: 30px;
+    font-family: 'Allura', cursive;
+    border-bottom: 2px solid #E66445;
+  }
+  .menu-page .wine-card .white-ss-wines {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .menu-page .menu-page-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 50px;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 4px;
+  }
+  .menu-page .menu-page-header .menu-decorator {
+    width: 50px;
+    height: 10px;
+    margin: 12px;
+  }
+  .menu-page .menu-page-header .menu-decorator-right {
+    margin-top: 12px;
+    margin-left: 5px;
+  }
+  .menu-page .device-computer {
+    display: none;
+  }
+  .menu-page .device-mobile {
+    display: block;
+  }
+  .menu-page .black-tea {
+    margin-top: 60px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .black-tea .black-tea-image-area {
+    position: relative;
+  }
+  .menu-page .black-tea .black-tea-image-area .menu-image {
+    border-radius: 10px;
+    height: 350px;
+    width: 100%;
+  }
+  .menu-page .black-tea .black-tea-content {
+    margin-top: 20px;
+  }
+  .menu-page .black-tea .black-tea-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .black-tea .black-tea-content .product-label .product-name {
+    font-size: 15px;
+    color: #E66445;
+  }
+  .menu-page .black-tea .black-tea-content .product-label .product-price {
+    font-size: 15px;
+    color: #E66445;
+  }
+  .menu-page .black-tea .black-tea-content .product-label .menu-dash {
+    height: 9px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .black-tea .black-tea-content .product-desc-area .product-desc {
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 35px;
+  }
+  .menu-page .black-tea .black-tea-label-area .black-tea-label {
+    text-align: center;
+    font-size: 40px;
+    color: #E66445;
+    font-family: 'Amatic SC', cursive;
+  }
+  .menu-page .green-tea {
+    margin-top: 30px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .green-tea .green-tea-image-area {
+    position: relative;
+  }
+  .menu-page .green-tea .green-tea-image-area .menu-image {
+    border-radius: 10px;
+    height: 350px;
+    width: 100%;
+  }
+  .menu-page .green-tea .green-tea-content {
+    margin-top: 20px;
+  }
+  .menu-page .green-tea .green-tea-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .green-tea .green-tea-content .product-label .product-name {
+    font-size: 15px;
+    color: #E66445;
+  }
+  .menu-page .green-tea .green-tea-content .product-label .product-price {
+    font-size: 15px;
+    color: #E66445;
+  }
+  .menu-page .green-tea .green-tea-content .product-label .menu-dash {
+    height: 9px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .green-tea .green-tea-content .product-desc-area .product-desc {
+    color: grey;
+    font-size: 15px;
+    margin-bottom: 35px;
+  }
+  .menu-page .green-tea .green-tea-label-area .green-tea-label {
+    text-align: center;
+    font-size: 40px;
+    color: #E66445;
+    font-family: 'Amatic SC', cursive;
+  }
+  .menu-page .herbal-tea {
+    margin-top: 30px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .herbal-tea .herbal-tea-image-area {
+    position: relative;
+  }
+  .menu-page .herbal-tea .herbal-tea-image-area .menu-image {
+    border-radius: 10px;
+    height: 350px;
+    width: 100%;
+  }
+  .menu-page .herbal-tea .herbal-tea-content {
+    margin-top: 20px;
+  }
+  .menu-page .herbal-tea .herbal-tea-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .herbal-tea .herbal-tea-content .product-label .product-name {
+    font-size: 15px;
+    color: #E66445;
+  }
+  .menu-page .herbal-tea .herbal-tea-content .product-label .product-price {
+    font-size: 15px;
+    color: #E66445;
+  }
+  .menu-page .herbal-tea .herbal-tea-content .product-label .menu-dash {
+    height: 9px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .herbal-tea .herbal-tea-content .product-desc-area .product-desc {
+    color: grey;
+    font-size: 15px;
+    margin-bottom: 35px;
+  }
+  .menu-page .herbal-tea .herbal-tea-label-area .herbal-tea-label {
+    text-align: center;
+    font-size: 40px;
+    color: #E66445;
+    font-family: 'Amatic SC', cursive;
+  }
+  .menu-page .fruit-tea {
+    margin-top: 30px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .fruit-tea .fruit-tea-image-area {
+    position: relative;
+  }
+  .menu-page .fruit-tea .fruit-tea-image-area .menu-image {
+    border-radius: 10px;
+    height: 350px;
+    width: 100%;
+  }
+  .menu-page .fruit-tea .fruit-tea-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 20px;
+  }
+  .menu-page .fruit-tea .fruit-tea-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .fruit-tea .fruit-tea-content .product-label .product-name {
+    font-size: 15px;
+    color: #E66445;
+  }
+  .menu-page .fruit-tea .fruit-tea-content .product-label .product-price {
+    font-size: 15px;
+    color: #E66445;
+  }
+  .menu-page .fruit-tea .fruit-tea-content .product-label .menu-dash {
+    height: 9px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .fruit-tea .fruit-tea-content .product-desc-area .product-desc {
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 35px;
+  }
+  .menu-page .fruit-tea .fruit-tea-label-area .fruit-tea-label {
+    text-align: center;
+    font-size: 40px;
+    color: #E66445;
+    font-family: 'Amatic SC', cursive;
+  }
+  .menu-page .breakfast {
+    margin-top: 30px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .breakfast .breakfast-image-area {
+    position: relative;
+  }
+  .menu-page .breakfast .breakfast-image-area .menu-image {
+    border-radius: 10px;
+    height: 350px;
+    width: 100%;
+  }
+  .menu-page .breakfast .breakfast-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 20px;
+  }
+  .menu-page .breakfast .breakfast-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+    margin-bottom: 25px;
+  }
+  .menu-page .breakfast .breakfast-content .product-label .product-name {
+    font-size: 15px;
+    color: #E66445;
+  }
+  .menu-page .breakfast .breakfast-content .product-label .product-price {
+    font-size: 15px;
+    color: #E66445;
+  }
+  .menu-page .breakfast .breakfast-content .product-label .menu-dash {
+    height: 9px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .breakfast .breakfast-label-area .breakfast-label {
+    text-align: center;
+    font-size: 40px;
+    color: #E66445;
+    font-family: 'Amatic SC', cursive;
+  }
+  .menu-page .breakfast .menu-desc-area .menu-desc {
+    border: 1px solid #E66445;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 13px;
+  }
+  .menu-page .salads {
+    margin-top: 60px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .salads .salads-image-area {
+    position: relative;
+  }
+  .menu-page .salads .salads-image-area .menu-image {
+    border-radius: 10px;
+    height: 350px;
+    width: 100%;
+  }
+  .menu-page .salads .salads-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 20px;
+  }
+  .menu-page .salads .salads-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .salads .salads-content .product-label .product-name {
+    font-size: 15px;
+    color: #E66445;
+  }
+  .menu-page .salads .salads-content .product-label .product-price {
+    font-size: 15px;
+    color: #E66445;
+  }
+  .menu-page .salads .salads-content .product-label .menu-dash {
+    height: 9px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .salads .salads-content .product-desc-area .product-desc {
+    font-size: 15px;
+    color: grey;
+  }
+  .menu-page .salads .salads-label-area .salads-label {
+    text-align: center;
+    font-size: 40px;
+    color: #E66445;
+    font-family: 'Amatic SC', cursive;
+  }
+  .menu-page .sandwich {
+    margin-top: 30px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .sandwich .sandwich-image-area {
+    position: relative;
+  }
+  .menu-page .sandwich .sandwich-image-area .menu-image {
+    border-radius: 10px;
+    height: 350px;
+    width: 100%;
+  }
+  .menu-page .sandwich .sandwich-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 20px;
+  }
+  .menu-page .sandwich .sandwich-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .sandwich .sandwich-content .product-label .product-name {
+    font-size: 15px;
+    color: #E66445;
+    margin: 0;
+  }
+  .menu-page .sandwich .sandwich-content .product-label .product-price {
+    font-size: 15px;
+    color: #E66445;
+    margin: 0;
+  }
+  .menu-page .sandwich .sandwich-content .product-label .menu-dash {
+    height: 9px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .sandwich .sandwich-content .product-desc-area .product-desc {
+    font-size: 15px;
+    color: grey;
+  }
+  .menu-page .sandwich .sandwich-content .menu-desc-area .menu-desc {
+    border: 1px solid #E66445;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 13px;
+  }
+  .menu-page .sandwich .sandwich-label-area .sandwich-label {
+    text-align: center;
+    font-size: 40px;
+    color: #E66445;
+    font-family: 'Amatic SC', cursive;
+  }
+  .menu-page .main-dishes {
+    margin-top: 50px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .main-dishes .main-dishes-image-area {
+    position: relative;
+  }
+  .menu-page .main-dishes .main-dishes-image-area .menu-image {
+    border-radius: 10px;
+    height: 350px;
+    width: 100%;
+  }
+  .menu-page .main-dishes .main-dishes-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 20px;
+  }
+  .menu-page .main-dishes .main-dishes-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .main-dishes .main-dishes-content .product-label .product-name {
+    font-size: 15px;
+    color: #E66445;
+    margin: 0;
+  }
+  .menu-page .main-dishes .main-dishes-content .product-label .product-price {
+    font-size: 15px;
+    color: #E66445;
+    margin: 0;
+  }
+  .menu-page .main-dishes .main-dishes-content .product-label .menu-dash {
+    height: 9px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .main-dishes .main-dishes-content .product-desc-area .product-desc {
+    font-size: 15px;
+    color: grey;
+  }
+  .menu-page .main-dishes .main-dishes-label-area .main-dishes-label {
+    text-align: center;
+    font-size: 40px;
+    color: #E66445;
+    font-family: 'Amatic SC', cursive;
+  }
+  .menu-page .appetizers {
+    margin-top: 30px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-page .appetizers .appetizer-image-area {
+    position: relative;
+  }
+  .menu-page .appetizers .appetizer-image-area .menu-image {
+    border-radius: 10px;
+    height: 350px;
+    width: 100%;
+  }
+  .menu-page .appetizers .appetizers-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 20px;
+  }
+  .menu-page .appetizers .appetizers-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .appetizers .appetizers-content .product-label .product-name {
+    font-size: 15px;
+    color: #E66445;
+    margin: 0;
+  }
+  .menu-page .appetizers .appetizers-content .product-label .product-price {
+    font-size: 15px;
+    color: #E66445;
+    margin: 0;
+  }
+  .menu-page .appetizers .appetizers-content .product-label .menu-dash {
+    height: 9px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .appetizers .appetizers-content .product-desc-area .product-desc {
+    font-size: 15px;
+    color: grey;
+  }
+  .menu-page .appetizers .appetizers-content .menu-desc-area .menu-desc {
+    border: 1px solid #E66445;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  .menu-page .appetizers .appetizers-label-area .appetizers-label {
+    text-align: center;
+    font-size: 40px;
+    color: #E66445;
+    font-family: 'Amatic SC', cursive;
+  }
+  .menu-page .bruschetta-area .bruschetta {
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+            box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-label {
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: 'Allura', cursive;
+    z-index: 2;
+    background-color: white;
+    text-align: center;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-types-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-title {
+    text-align: center;
+    font-size: 20px;
+    color: #E66445;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-product-area {
+    margin-bottom: 20px;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-products {
+    list-style: none;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-composition {
+    font-size: 15px;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-types .menu-decorator {
+    width: 40px;
+    height: 10px;
+    margin: 12px;
+  }
+  .menu-page .bruschetta-area .bruschetta .bruschetta-types .bruschetta-price {
+    text-align: center;
+    color: grey;
+    font-size: 14px;
+  }
+  .menu-page .wine-card .active {
+    color: #E66445;
+  }
+  .menu-page .wine-card .wine-card-buttons {
+    margin-top: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-button {
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+    position: relative;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-button:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #E66445;
+    -webkit-transform-origin: bottom right;
+            transform-origin: bottom right;
+    -webkit-transition: -webkit-transform 0.4s ease-out;
+    transition: -webkit-transform 0.4s ease-out;
+    transition: transform 0.4s ease-out;
+    transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-button:hover {
+    color: #E66445;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-button:hover:after {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: bottom left;
+            transform-origin: bottom left;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-center-button {
+    margin-left: 10px;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-decorator-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-decorator-area .wine-card-decorator {
+    height: 13px;
+    width: 60px;
+  }
+  .menu-page .wine-card .wine-card-buttons .wine-card-decorator-area .wine-card-decorator-right {
+    margin-left: 13px;
+  }
+  .menu-page .wine-card .wine-card-content .product-label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+  }
+  .menu-page .wine-card .wine-card-content .product-label .product-name {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .wine-card .wine-card-content .product-label .product-price {
+    font-size: 17px;
+    color: #E66445;
+  }
+  .menu-page .wine-card .wine-card-content .product-label .menu-dash {
+    height: 11px;
+    border-bottom: 1px dashed #c7c7c7;
+  }
+  .menu-page .wine-card .wine-card-content .product-desc-area .product-desc {
+    color: grey;
+    font-size: 14px;
+  }
+  .menu-page .wine-card .wine-card-label-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .menu-page .wine-card .wine-card-label-area .wine-card-label {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Allura', cursive;
+    font-size: 40px;
+    border-top: 2px solid #E66445;
+    border-bottom: 2px solid #E66445;
+    padding: 0;
+  }
+  .menu-page .wine-card .wine-label-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .menu-page .wine-card .wine-label-area .wine-label {
+    font-size: 30px;
+    font-family: 'Allura', cursive;
+    border-bottom: 2px solid #E66445;
+  }
+  .menu-page .wine-card .white-ss-wines {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 /*# sourceMappingURL=menu.css.map */

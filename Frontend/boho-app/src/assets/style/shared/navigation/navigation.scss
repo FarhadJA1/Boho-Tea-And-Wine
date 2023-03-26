@@ -30,7 +30,7 @@
           ;
           position: relative;
           display: block;
-          // border-bottom: 1px solid #E66445;
+          
           text-decoration: none;
           // text-transform: uppercase;
           -webkit-text-stroke: 2px var(--fill-color);
@@ -57,7 +57,7 @@
   .nav-menu {
     width: 100%;
     height: 120px;
-    border-bottom: 1px solid #E66445;
+ 
 
     .nav-menu-part {
       padding: 0 !important;
@@ -68,10 +68,6 @@
         height: 98%;
       }
     }
-
-    // .part-right{
-    //     padding-top: 5px;
-    // }
     ul {
       display: flex;
       align-items: start;
