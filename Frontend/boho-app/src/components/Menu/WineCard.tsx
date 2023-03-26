@@ -292,7 +292,7 @@ function WineCard() {
                                 {
                                     currentWine === 2 && (
                                         <div className="row">
-                                            <div className='row'>
+                                            <div className='white-ss-wines'>
                                                 <div className="row">
                                                     <div className="wine-label-area">
                                                         <span className='wine-label'>Semi-sweet</span>
