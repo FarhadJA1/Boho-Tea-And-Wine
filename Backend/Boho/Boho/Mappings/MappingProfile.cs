@@ -5,7 +5,9 @@ using Boho.Dtos.Category;
 using Boho.Dtos.Contact;
 using Boho.Dtos.GalleryImage;
 using Boho.Dtos.GalleryImageText;
+using Boho.Dtos.Home;
 using Boho.Dtos.Product;
+using Boho.Dtos.Settings;
 using Boho.Entities;
 
 namespace Boho.Mappings;
@@ -53,5 +55,40 @@ public class MappingProfile : Profile
 		CreateMap<GalleryImageText, CreateGalleryImageTextDto>().ReverseMap();
 		CreateMap<GalleryImageText, UpdateGalleryImageTextDto>().ReverseMap();
 		CreateMap<GalleryImageText, GalleryImageTextDto>();
+
+		//HomeAbout
+		CreateMap<HomeAbout, HomeAboutCreateDto>().ReverseMap();
+		CreateMap<HomeAbout, HomeAboutUpdateDto>().ReverseMap();
+		CreateMap<HomeAbout, HomeAboutDto>();
+
+        //HomeGalleryLabel
+        CreateMap<HomeGalleryLabel, HomeGalleryLabelCreateDto>().ReverseMap();
+        CreateMap<HomeGalleryLabel, HomeGalleryLabelUpdateDto>().ReverseMap();
+        CreateMap<HomeGalleryLabel, HomeGalleryLabelDto>();
+
+        //OpeningHour
+        CreateMap<OpeningHours, OpeningHourCreateDto>().ReverseMap();
+        CreateMap<OpeningHours, OpeningHourUpdateDto>().ReverseMap();
+        CreateMap<OpeningHours, HomeGalleryLabelDto>();
+
+        //TabMenu
+        CreateMap<TabMenu, TabMenuCreateDto>().ReverseMap();
+        CreateMap<TabMenu, TabMenuUpdateDto>().ReverseMap();
+        CreateMap<TabMenu, TabMenuDto>();
+
+        //Testimonial
+        CreateMap<Testimonial, TestimonialCreateDto>().ReverseMap();
+        CreateMap<Testimonial, TestimonialUpdateDto>().ReverseMap();
+        CreateMap<Testimonial, TestimonialDto>();
+
+        //TestimonialImage
+        CreateMap<TestimonialImage, TestimonialImageCreateDto>().ReverseMap();
+        CreateMap<TestimonialImage, TestimonialImageUpdateDto>().ReverseMap();
+        CreateMap<TestimonialImage, TestimonialImageDto>();
+
+        //Settings
+        CreateMap<Settings, CreateSettingsDto>().ReverseMap();
+        CreateMap<Settings, UpdateSettingsDto>().ReverseMap();
+        CreateMap<Settings, SettingsDto>();
     }
 }

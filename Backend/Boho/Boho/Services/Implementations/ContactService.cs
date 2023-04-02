@@ -30,6 +30,7 @@ public class ContactService : IContactService
         if (contact != null)
         {
             _context.Contacts.Remove(contact);
+            await _context.SaveChangesAsync();
             return true;
         }
         return false;

@@ -66,3 +66,5 @@ C:\Users\ASUS\Desktop\Boho\Backend\Boho\Boho\obj\Debug\net6.0\refint\Boho.dll
 C:\Users\ASUS\Desktop\Boho\Backend\Boho\Boho\obj\Debug\net6.0\Boho.pdb
 C:\Users\ASUS\Desktop\Boho\Backend\Boho\Boho\obj\Debug\net6.0\Boho.genruntimeconfig.cache
 C:\Users\ASUS\Desktop\Boho\Backend\Boho\Boho\obj\Debug\net6.0\ref\Boho.dll
+C:\Users\ASUS\Desktop\Boho\Backend\Boho\Boho\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\ASUS\Desktop\Boho\Backend\Boho\Boho\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

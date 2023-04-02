@@ -25,6 +25,8 @@ builder.Services.AddScoped<IMenuService, MenuService>();
 builder.Services.AddScoped<IContactService, ContactService>();
 builder.Services.AddScoped<IGalleryImageService, GalleryImageService>();
 builder.Services.AddScoped<IGalleryImageTextService, GalleryImageTextService>();
+builder.Services.AddScoped<IHomeService, HomeService>();
+builder.Services.AddScoped<ISettingsService, SettingsService>();
 
 var app = builder.Build();
 

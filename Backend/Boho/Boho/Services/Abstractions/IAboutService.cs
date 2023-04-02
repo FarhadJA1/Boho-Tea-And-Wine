@@ -5,7 +5,7 @@ public interface IAboutService
 {
     Task CreateContentAsync(CreateContentDto createContentDto);
     Task CreateSliderImageAsync(CreateSliderImageDto createSliderImageDto);
-    Task<IEnumerable<AboutContentDto>> GetAllAboutContentsAsync();
+    Task<AboutContentDto> GetAllAboutContentsAsync();
     Task<IEnumerable<AboutSliderImageDto>> GetAllAboutSliderImagesAsync();
     Task<bool> UpdateAboutSliderImageAsync(UpdateAboutSliderImage updateAboutSliderImage);
     Task<bool> UpdateAboutContentAsync(UpdateAboutContentDto updateAboutContentDto);

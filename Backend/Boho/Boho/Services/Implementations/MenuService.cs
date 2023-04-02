@@ -32,6 +32,7 @@ public class MenuService : IMenuService
         if (bruschetta != null)
         {
             _context.Bruschettas.Remove(bruschetta);
+            await _context.SaveChangesAsync();
             return true;
         }
         return false;
@@ -49,6 +50,7 @@ public class MenuService : IMenuService
             bruschetta.Name = updateBruschettaDto.Name;
             bruschetta.PriceForThree = updateBruschettaDto.PriceForThree;
             bruschetta.PriceForFive = updateBruschettaDto.PriceForFive;
+            await _context.SaveChangesAsync();
             return true;
         }
         return false;
@@ -68,6 +70,7 @@ public class MenuService : IMenuService
         if (bruschettaComposition != null)
         {
             _context.BruschettaCompositions.Remove(bruschettaComposition);
+            await _context.SaveChangesAsync();
             return true;
         }
         return false;
@@ -84,6 +87,7 @@ public class MenuService : IMenuService
         {
             bruschettaComposition.Composition = updateBruschettaCompositionDto.Composition;
             bruschettaComposition.BruschettaId = updateBruschettaCompositionDto.BruschettaId;
+            await _context.SaveChangesAsync();
             return true;
         }
         return false;
@@ -108,6 +112,7 @@ public class MenuService : IMenuService
         if (product != null)
         {
             _context.Products.Remove(product);
+            await _context.SaveChangesAsync();
             return true;
         }
         return false;
@@ -121,6 +126,7 @@ public class MenuService : IMenuService
             product.Description = updateProductDto.Description;
             product.Name = updateProductDto.Name;
             product.CategoryId = updateProductDto.CategoryId;
+            await _context.SaveChangesAsync();
             return true;
         }
         return false;
@@ -146,7 +152,8 @@ public class MenuService : IMenuService
         var category = await _context.Categories.FirstOrDefaultAsync(m => m.Id == updateCategoryDto.Id);
         if (category != null)
         {
-            category.Name = updateCategoryDto.Name;            
+            category.Name = updateCategoryDto.Name;
+            await _context.SaveChangesAsync();
             return true;
         }
         return false;
@@ -158,6 +165,7 @@ public class MenuService : IMenuService
         if (category != null)
         {
             _context.Categories.Remove(category);
+            await _context.SaveChangesAsync();
             return true;
         }
         return false;

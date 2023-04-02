@@ -55,10 +55,10 @@ public class AboutService : IAboutService
         return false;
     }
 
-    public async Task<IEnumerable<AboutContentDto>> GetAllAboutContentsAsync()
+    public async Task<AboutContentDto> GetAllAboutContentsAsync()
     {
         var contents = await _context.AboutContents.ToListAsync();
-        return _mapper.Map<IEnumerable<AboutContentDto>>(contents);
+        return _mapper.Map<AboutContentDto>(contents);
     }
 
     public async Task<IEnumerable<AboutSliderImageDto>> GetAllAboutSliderImagesAsync()
